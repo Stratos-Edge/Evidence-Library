@@ -1,0 +1,1634 @@
+AI eats the world
+
+
+Benedict Evans
+May 2026
+www.ben-evans.com
+
+
+
+
+                    Benedict Evans –– May 2020
+AI eats the world
+
+
+
+
+    Capital         Deployment               Change
+
+
+
+
+                                 Benedict Evans –– May 2026   2
+Capital
+
+
+
+
+          Benedict Evans –– May 2026   3
+Tech moves in platforms shifts
+Every 10-15 years, a platform shift reshapes technology
+
+
+
+
+   Mainframes                PCs                   Web    Smartphones          Generative AI
+
+
+
+                                                                  Benedict Evans –– May 2026   4
+What happens in a platform shift?
+Who is affected, and how much?
+
+
+
+
+   The New Thing!                  Inside tech                Outside tech
+  All tech innovation,           New gatekeepers,           Is this a new tool,
+    investment and               new value capture           new revenue, or
+   company creation               New and bigger              an existential
+     switches over                   markers                      threat?
+
+
+
+
+                                                     Benedict Evans –– May 2026   5
+       Platform shifts reset the tech industry
+       Microsoft dominated the PC era, but then smartphones made it irrelevant
+
+
+
+
+       Microsoft OS share of global computer unit sales
+
+
+100%
+
+
+
+
+75%
+
+
+
+
+50%
+
+
+
+
+25%
+
+
+
+
+ 0%
+   1980                                 1990              2000               2010                      2020
+
+
+
+
+       Source: Apple, Google, Gartner                                               Benedict Evans –– May 2026   6
+“The risk of under-investing    “The very worst case would
+is significantly greater than   be that we have just pre-
+the risk of over-investing”     built for a couple of years”
+
+Sundar Pichai                   Mark Zuckerberg
+
+
+
+
+                                              Benedict Evans –– May 2026   7
+                  A capex explosion
+                  $700bn planned in 2026 for the big four (for comparison, global Telecoms is ~$300bn and Oil & Gas is ~$1tr)
+
+
+
+
+                  Annual capex, 2010-2026e ($bn)
+
+
+Meta        800
+AWS*
+Alphabet
+            700
+Microsoft
+
+            600
+
+            500
+
+            400
+
+            300
+
+            200
+
+            100
+
+              0
+                    2010     2011     2012     2013     2014     2015     2016     2017     2018       2019   2020   2021   2022   2023   2024    2025     2026
+                                                                                                                                                         guidance
+
+
+                  Source: Companies, company guidance. Includes capital leases                                              Benedict Evans –– May 2026          8
+                  * Amazon does not break out AWS capex directly but reports it as the vast majority
+              Nvidia can’t keep up
+              (And can’t get TSMC to increase capacity fast enough)
+
+
+
+
+              Quarterly revenue ($bn)
+
+
+Intel    70
+Nvidia
+
+         60
+
+
+         50
+
+
+         40
+
+
+         30
+
+
+         20
+
+
+         10
+
+
+          0
+          2000                     2005               2010            2015       2020                     2025
+
+
+
+
+              Source: Companies                                              Benedict Evans –– May 2026          9
+      A new semiconductor investment cycle?
+      Unprecedented surge in chip demand (but semis have always been a cyclical industry)
+
+
+
+
+      Monthly global semiconductor billings ($bn, 2026 dollars)
+
+
+125
+
+
+
+100
+
+
+
+75
+
+
+
+50
+
+
+
+25
+
+
+
+ 0
+Jan 1990                            Jan 2000                      Jan 2010                  Jan 2020            Mar 2026
+
+
+
+
+      Source: WSTS, US Census                                                      Benedict Evans –– May 2026     10
+                            Driving yet more investment
+                            Semiconductor capex is surging to meet (though not as much as the customers might like)
+
+
+
+
+                            Capex for leading semiconductor companies ($bn)
+
+
+Samsung Electronics   150
+Intel
+TSMC
+
+
+
+
+                      100
+
+
+
+
+                      50
+
+
+
+
+                       0
+                             2010     2011      2012   2013   2014   2015   2016   2017   2018   2019   2020   2021   2022   2023   2024    2025     2026
+                                                                                                                                                   guidance
+
+
+                            Source: Companies                                                                         Benedict Evans –– May 2026         11
+                      Overtaking the office cycle
+                      US data centre construction spending (not including the compute!) is now overtaking office construction
+
+
+
+
+                      US construction value ($bn, 2026 dollars, seasonally adjusted annual rate)
+
+
+Offices         125
+Data centres*
+
+
+                100
+
+
+
+                75
+
+
+
+                50
+
+
+
+                25
+
+
+
+                 0
+                Jan 1995                 Jan 2000            Jan 2005          Jan 2010            Jan 2015         Jan 2020               Jan 2025
+
+
+
+
+                      Source: US Census.* Excludes compute                                                    Benedict Evans –– May 2026          12
+      Challenging financial gravity
+      These were asset-light businesses that funded capex from free cashflow - not any more
+
+
+
+
+      Annual capex/sales, CY 2010 to 2026e
+
+
+60%
+
+
+50%
+
+
+40%
+
+
+30%
+
+
+20%
+
+
+10%
+
+
+0%
+                     Meta                      Microsoft              Alphabet                       Amazon
+
+
+
+
+      Source: Companies, consensus estimates                                         Benedict Evans –– May 2026   13
+Here comes the ‘structure’
+As spending surges, companies scramble to manage the balance sheet
+
+
+
+
+                                                                     Benedict Evans –– May 2026   14
+OpenAI tries to join the club
+Deals to build 30GW+ of capacity at $1.4tr? Or
+$600bn by 2030?
+
+Aspiration for 1GW/week of new construction
+at $20bn/GW = ~$1tr annually?
+
+Other People’s Balance Sheets, circular revenue
+and a lot of plate-spinning
+
+
+
+
+Source: OpenAI                                    Benedict Evans –– May 2026   15
+Deployment hits bottlenecks everywhere
+Broader supply chains cannot keep up with sudden demand for capital deployment
+
+
+
+
+                               Multi-year
+
+                      +                           +                              =
+                                                           Community/
+      GPUs,                   power backlog                                                  Pig in a
+                                                             political
+     memory                                                                                  python
+                              (Except China)                backlash?
+
+
+
+
+                                                                            Benedict Evans –– May 2026   16
+“It’s been almost impossible to build
+capacity fast enough since ChatGPT
+launched”
+
+Kevin Scott, Microsoft CTO
+
+
+
+
+                                        Benedict Evans –– May 2026   17
+                         Meanwhile - unprecedented growth
+                         Explosive growth, with demand far ahead of supply (though business models are nowhere near equilibrium)
+
+
+
+
+                         Reported monthly revenue ($bn)*
+
+
+OpenAI (net)         4
+Anthropic (gross)
+
+
+
+                     3
+
+
+
+
+                     2
+
+
+
+
+                     1
+
+
+
+
+                     0
+                    Dec 2022              Jun 2023              Dec 2023              Jun 2024             Dec 2024     Jun 2025          Dec 2025        Jun 2026
+
+
+
+
+                         Source: Companies, press reports. NB: round numbers reported without precise dates                  Benedict Evans –– May 2026     18
+                         * Companies report ‘annualised’ revenue, defined as sum of previous 4 weeks multiplied by 13
+“Wait, how much did we
+spend?!”
+
+
+
+
+                         Benedict Evans –– May 2026   19
+Price, use and capex are out of equilibrium
+How long does usage growth outpace efficiency gains? How much do we spend to chase the frontier?
+
+
+
+
+                                 Inference                  More and/or
+    Explosive                                                                              Building the
+                                 efficiency                 less efficient
+ demand growth,
+   far ahead of       X         growing by
+                                50-100x per
+                                                   X       models? Edge?
+                                                           Open source?
+                                                                                X          next frontier
+                                                                                           model, every
+      supply                                                                               6-9 months
+                                    year                     Asset life?
+
+
+
+
+       ⬆                            ⬇                            ?                                ?
+                                                                             Benedict Evans –– May 2026    20
+History doesn’t repeat, but it rhymes
+Press reports: “Usage surge from a new application overwhelms infrastructure and drives new pricing models”
+
+
+
+
+                                                                              Benedict Evans –– May 2026   21
+Mobile networks in 2010 = LLMs in 2026?
+How do you manage explosive demand with marginal cost and limited capacity? And then what?
+
+
+
+
+                                            Equilibrium                             Now v. next
+     Bits = tokens
+                                                                                  Supply/demand
+    Marginal cost                          Flat-rate capped
+                                                                               imbalance today lets
+                                            bundles align
+   Opaque & poorly                                                               labs price at ROI
+                                            price, usage &
+   aligned with use                        capacity growth                         But long-term
+     cases or value                                                               pricing power is
+                                              Wifi/Edge
+                                                                                      unlikely
+
+
+
+
+                                                                           Benedict Evans –– May 2026   22
+"We see a future where intelligence is a
+utility like electricity or water and people
+buy it from us on a meter”
+
+Sam Altman
+
+
+
+
+                                        Benedict Evans –– May 2026   23
+        Commodity infra rarely captures value up the stack
+        Mobile networks are a trillion dollar industry, but all the use-cases and value-capture are built by other people
+
+
+
+
+        Global mobile data traffic (EB)                                         Global telco stocks (MSCI index)
+
+
+2,000                                                               2,000
+
+
+
+
+1,500                                                                1,500
+
+
+
+
+1,000                                                                1,000
+
+
+
+
+ 500                                                                  500
+
+
+
+
+   0                                                                    0
+    2010                  2015            2020       2025                2010             2015             2020          2025
+
+
+
+
+        Source: Ericsson, MSCI                                                              Benedict Evans –– May 2026   24
+                    And so far, models do seem to be commodities
+                    For most general and consumer use, models are very similar, and crucially there are no network effects
+
+
+
+
+                    Selected frontier LLMs by aggregate benchmark score
+
+
+OpenAI         70
+Anthropic
+Google
+Meta           60
+Chinese labs
+
+               50
+
+
+               40
+
+
+               30
+
+
+               20
+
+
+               10
+
+
+                0
+               Jun 2022                          Jun 2023                 Jun 2024                 Jun 2025                      Jun 2026
+
+
+
+
+                    Source: ArtificialAnalysis                                                      Benedict Evans –– May 2026    25
+What will equilibrium look like?
+What will you get if you win the capex war?
+
+
+
+
+        Software                                    LLMs                   Will LLMs have
+       Capital-light                           Capital-intensive           pricing power?
+     Network effects                          No network effects?         Can they capture
+                                                                          use-cases & value
+       Monopolies                                Commodity?                further up the
+      High margin                                Low margin?                   stack?
+
+
+
+
+                                                                    Benedict Evans –– May 2026   26
+A provisional thesis
+This is all very early, and these might be the wrong answers, but hopefully they’re the right questions
+
+
+
+
+                                                                Models are                     Models will
+      Chat is a                    Labs can’t
+                                                               commodities                     just be infra
+    terrible UX                     build (or
+                                                               and have no                     Innovation
+    General use                   generate) all
+                                                                 network                       will move up
+    needs ‘apps’                    the apps
+                                                                  effects                       the stack
+
+
+
+
+                                                                                 Benedict Evans –– May 2026    27
+Deployment
+
+
+
+
+             Benedict Evans –– May 2026   28
+        “Everyone is already using this!”
+        OpenAI reports 900m+ weekly users (but only 5% are paying)
+
+
+
+
+        ChatGPT global weekly active users (m)
+
+
+1,000
+
+
+
+
+ 750
+
+
+
+
+ 500
+
+
+
+
+ 250
+
+
+
+
+   0
+  Dec 2022              Jun 2023             Dec 2023             Jun 2024   Dec 2024   Jun 2025          Dec 2025        Jun 2026
+
+
+
+
+        Source: OpenAI. NB: round numbers reported without precise dates                     Benedict Evans –– May 2026    29
+                           Consumer use is a mile wide and an inch deep
+                           Less than 1,000 prompts in a year means it isn’t a daily essential for at least 80% of users, so far
+
+
+
+
+                           Range of user-reported total ChatGPT messages sent in 2025, by cohort
+
+
+Highest observed   5,000
+Lowest observed
+
+
+                   4,000
+
+
+
+                   3,000
+
+
+
+                   2,000
+
+
+
+                   1,000
+
+
+
+                      0
+                                                      Top 5%           Top 10%                 Top 15%              Top 20%
+
+
+
+
+                           Source: OpenAI ‘Wrapped’                                                            Benedict Evans –– May 2026   30
+               Experimentation versus daily use
+               Glass half-empty/half-full - lots of people using this sometimes, but fewer make it a daily habit
+
+
+
+
+               Consumer generative AI chatbot use in the USA
+
+
+Weekly   60%
+Daily
+
+         50%
+
+
+         40%
+
+
+         30%
+
+
+         20%
+
+
+         10%
+
+
+         0%
+                                  US adults                                       Aged 13-17                Aged 14-29
+                             Bick et al, Nov 2025                              Pew, October 2025        Gallup, March 2026
+
+
+               Source: Companies. Dates indicate when research was conducted                       Benedict Evans –– May 2026   31
+               The ‘capacity gap’ - usage versus potential
+               The same for work - rapid growth, but how do we go from ‘I used it last week’ to daily essential?
+
+
+
+
+               US workplace AI use by industry, June 2023 to December 2025
+
+
+Any     100%
+Weeky
+Daily
+
+
+        75%
+
+
+
+
+        50%
+
+
+
+
+        25%
+
+
+
+
+         0%
+                    Tech            Finance         Professional      Healthcare      Retail        Manufacturing        Government
+                                                      services
+
+
+               Source: Gallup                                                                    Benedict Evans –– May 2026       32
+Imagine you were an
+accountant seeing the first
+software spreadsheets
+
+Now imagine you were a
+lawyer: “very cool, but…”
+
+
+
+
+Source: Computer History Museum   Benedict Evans –– August 2026   33
+“What’s this for?” Well, what’s the pattern?
+How do we always deploy new technologies?
+
+
+
+
+        Absorb                               Innovate?
+                                            Things that are              Disrupt?
+     Doing the old
+   things better with                        only possible              Redefine the
+  the new technology                         with the new                question
+                                              technology
+
+
+
+
+                                                              Benedict Evans –– May 2026   34
+                        What works first?
+                        First, automate the obvious use cases - innovation takes longer
+
+
+
+
+                        Impact of AI deployment (US CFOs surveyed in December 2025)
+
+
+Results in 2025    4%
+Expected in 2026
+                                                      Easy to deploy, hard to measure
+
+
+                   3%
+
+
+
+                                                                                                               Hard to deploy, easy to measure
+                   2%
+
+
+
+
+                   1%
+
+
+
+
+                   0%
+                                 Productivity                  Better insights &        Better customer   Cost-saving                      New
+                                                               decision-making              service                                      revenue
+
+
+                        Source: Atlanta Fed: Baslandze et al                                                       Benedict Evans –– May 2026      35
+What’s working first?
+Where is it easy and obvious to use generative AI?
+
+
+
+
+                                  Marketing
+   Analytics &                                       Back-office
+                                   Customer                                         Coding!
+   productivity                                       processes
+                                    support
+
+
+
+
+                                                                   Benedict Evans –– May 2026   36
+    “ChatGPT, make me a chart of product-market fit”
+    A generational change in software development
+
+
+
+
+    Annualised enterprise AI spending, March 2026 ($bn)
+
+
+4
+
+
+
+
+3
+
+
+
+
+2
+
+
+
+
+1
+
+
+
+
+0
+         Coding         Legal         Support       Medical &     Search   Text         Real estate       Finance
+                                                   health admin
+
+
+    Source: a16z                                                                  Benedict Evans –– May 2026        37
+“We’re seeing more and more examples
+where one or two people are building
+something in a week that would have
+previously taken dozens of people
+months”
+
+Mark Zuckerberg
+
+
+                                  Benedict Evans –– May 2026   38
+Benedict Evans –– May 2026   39
+Writing code isn’t the hard part
+What should the code be doing, and where does it fit into the market? What gets bundled and unbundled?
+
+
+
+
+                                             Improvised                                  Vertical
+       Horizontal                             workflows
+                                                                                  Large companies
+   ‘Big iron’ systems                       Email, Excel,                         use hundreds of
+    of record - ERP,                       shared folders…                       SaaS, on-prem and
+     CRM, HCM etc
+                                               Plus AI?                             custom apps
+
+
+
+
+                                                                             Benedict Evans –– May 2026   40
+“For half of my jobs I tell clients who use
+Excel to switch to a database, and the
+other half are the other way around”
+
+Anon
+
+
+
+
+                                       Benedict Evans –– May 2026   41
+What does AI do to software? More! But then what?
+The best answer to this question might be “BREATHE”
+
+
+
+
+                                                                                     Do models
+                               New margin                                             replace
+   Coding is                                            Chatbots
+                               structures &                                          software?
+  much faster &                                       unbundle some
+                               competitive
+    cheaper                                             use-cases                  Or make more
+                                  threats
+                                                                                     software?
+
+
+
+
+                                                                      Benedict Evans –– May 2026   42
+“People don’t know what they want until
+you show it to them”
+
+“You’ve got to start with the experience
+and work backwards to the technology”
+
+Steve Jobs
+
+
+                                      Benedict Evans –– May 2026   43
+How do you build ‘AI software’?
+How do you turn an amazing raw technology into something people can use?
+
+
+
+
+                                             Use cases!
+                                                                                 Does the model
+    “Blank screen”                        Tooling, GUI,                          go at the top of
+   “Jagged frontier”                      process, GTM,                          the stack or the
+                                         proprietary data,                           bottom?
+                                            workflows
+
+
+
+
+                                                                           Benedict Evans –– May 2026   44
+        How do you know what to automate?
+        Step one: ask your systems integrator
+
+
+
+
+        Accenture reported new quarterly ‘generative AI’ contracts ($m)
+
+
+2,500
+
+
+
+2,000
+
+
+
+1,500
+
+
+
+1,000
+
+
+
+ 500
+
+
+
+   0
+  Feb 2023                  Aug 2023             Feb 2024                 Aug 2024   Feb 2025               Aug 2025
+
+
+
+
+        Source: Accenture                                                               Benedict Evans –– May 2026     45
+Automation takes a lot of manual labour
+PE roll-ups and GTM partnerships with outsourcers and strategy consultants
+
+
+
+
+                                                                             Benedict Evans –– May 2026   46
+                          Everyone has a pilot
+                          Enterprise software takes time, and come with early disappointments
+
+
+
+
+                          Enterprise use case adoption rates for generative AI: Q4 2023, Q3 2024, Q3 2025
+
+
+Development/Pilot   80%
+Production
+                    70%
+
+                    60%
+
+                    50%
+
+                    40%
+
+                    30%
+
+                    20%
+
+                    10%
+
+                    0%
+                              Software   Customer    Marketing    Knowledge   Operations     IT         Sales   Finance        HR         Legal
+                                          Service                Management
+
+
+                          Source: Bain                                                                           Benedict Evans –– May 2026       47
+              Startups exist to unbundle use cases
+              The coming wave of AI startups trying to unbundle Google, Excel, email and Oracle… and ChatGPT
+
+
+
+
+              Y Combinator startups by field
+
+
+Other   500
+AI
+
+
+        400
+
+
+
+        300
+
+
+
+        200
+
+
+
+        100
+
+
+
+          0
+              W 2015     W 2016      W 2017    W 2018   W 2019   W 2020   W 2021   W 2022   W 2023     W 2024      F 2024     S 2025
+
+
+
+
+              Source: Y Combinator                                                                   Benedict Evans –– May 2026        48
+Change
+
+
+
+
+         Benedict Evans –– May 2026   49
+“It’s tough to make predictions, especially
+about the future”
+
+Yogi Berra
+
+
+
+
+                                      Benedict Evans –– May 2026   50
+“It’s tough to make predictions, especially
+about the future”
+
+Yogi Berra
+
+Imagine asking “What will be changed by
+the internet?” in 1997
+
+
+                                      Benedict Evans –– May 2026   51
+What can we automate with AI?
+Adding probabilistic systems on top of deterministic systems as a new general purpose technology
+
+
+
+
+                                                                     New
+                   Old
+                                                               Anything with
+           Anything we can                                  enough training data
+           describe in logical
+              steps can be                                     Anything where
+               automated                                        verification is
+                                                                   scalable
+
+
+
+
+                                                                              Benedict Evans –– May 2026   52
+What does automation mean for you? It depends
+At minimum, AI automates a broad class of thing that used to need a person. Then what?
+
+
+
+
+    Is this just                Which tasks                                                  What was
+                                become free?                Was that cost                   impossible
+  price elasticity
+                                                             base your
+   & consumer                    What does                                                  that’s now
+                                                              moat?
+     surplus?                   that enable?                                                  cheap?
+
+
+
+
+                                                                              Benedict Evans –– May 2026   53
+          Sometimes a job is just a task to be automated
+          Otis launched the ‘Autotronic’ automatic elevator in 1950, and this entire job became a button
+
+
+
+
+          Elevator attendants, USA
+
+
+100,000
+
+
+
+
+75,000
+
+
+
+
+50,000
+
+
+
+
+25,000
+
+
+
+
+     0
+      1900             1910          1920    1930         1940        1950         1960        1970           1980      1990
+
+
+
+
+          Source: US Census                                                                Benedict Evans –– May 2026   54
+       More often, the job changes
+       Does automation just drive price elasticity, or does it unlock new kinds of work?
+
+
+
+
+       Accountants and auditors as % US employment
+
+
+1.5%
+
+
+
+
+1.0%
+
+
+
+
+0.5%
+
+
+
+
+0.0%
+    1910             1920     1930         1940        1950        1960         1970           1980           1990      2000
+
+
+
+
+       Source: BLS                                                                         Benedict Evans –– May 2026   55
+         Computers, price elasticity and changing jobs
+         There are lots of stories in this chart, and software is only one of them
+
+
+
+
+         Accounting graduates hired by CPA firms, USA
+
+
+50,000
+
+
+
+40,000
+
+
+
+30,000
+
+
+
+20,000
+
+
+
+10,000
+
+
+
+    0
+     1970                            1980                      1990         2000            2010                  2020
+
+
+
+
+         Source: AICPA. Data no longer collected after 2020.                         Benedict Evans –– May 2026   56
+         If the task becomes ‘free’ what does that unlock?
+         Automated inventory management let grocery stores stock 5x more products
+
+
+
+
+         Average SKUs per supermarket, USA
+
+
+60,000
+
+                                             Grocery barcodes launched in 1974
+50,000
+
+
+40,000
+
+
+30,000
+
+
+20,000
+
+
+10,000
+
+
+    0
+     1950              1960          1970            1980               1990     2000          2010              2020
+
+
+
+
+         Source: FMI                                                                    Benedict Evans –– May 2026      57
+Was the cost of that task your moat?
+The internet removed physical distribution costs that protected many industries from competition
+
+
+
+
+            A physical cost                                     Enabling
+                base…                                         something else
+             CDs, printing,                                   Music, journalism,
+             cables, stores                                      TV, retail
+                   Task                                               Job
+
+
+
+
+                                                                              Benedict Evans –– May 2026   58
+So what does automation break apart now?
+Which industries were protected by a cost base that AI can now automate to zero?
+
+
+
+
+                                                              What industries
+          Anything ‘boring’                                  need boring work?
+            will now be
+             automated                                       What can you split
+                                                                   apart?
+
+
+
+
+                                                                               Benedict Evans –– May 2026   59
+“AI gives you infinite interns”
+
+
+
+
+                                  Benedict Evans –– May 2026   60
+What was impossible that now becomes cheap?
+What if you had a million interns? What if you had one intern who was a million times faster?
+
+
+
+
+           Listen to every                                       Listen to a
+          call and tell me if                                   million calls
+            the customer                                      every day - what
+           sounds strange                                      do you notice?
+
+
+
+
+                                                                              Benedict Evans –– May 2026   61
+Amazon, Google and Meta
+don’t know what these are,
+or why you buy them
+
+
+
+
+Source: ChatGPT              Benedict Evans –– May 2026   62
+“Instead of just looking at statistical
+patterns of what types of people engage
+with what content, we’re going to be able
+to develop a 1st-principles understanding
+of what you care about and what each
+piece of content is about”
+
+Mark Zuckerberg
+                                     Benedict Evans –– May 2026   63
+What are the new questions?
+What if recommendations go from correlation to an understanding of what those SKUs really represent?
+
+
+
+
+                                                                                     Look at my
+       What’s this                          Find 20 more                           Instagram and
+      coat? Where                            options and                          buy some winter
+      can I buy it?                         explain how I                         coats to freshen
+                                            should decide                             my look
+
+
+
+
+                                                                             Benedict Evans –– May 2026   64
+                       (Reality check - this is very early)
+                       ‘Generative search’ so far may be more additive and experimental than substitution
+
+
+
+
+                       US consumer search preference (September 2025)
+
+
+Always search   100%
+Mostly seach
+Mixed
+Mostly GenAI
+Always GenAI
+                75%
+
+
+
+
+                50%
+
+
+
+
+                25%
+
+
+
+
+                 0%
+                                  All           Under 30            30-45            45-60             60-80                Older
+
+
+
+
+                       Source: Bain                                                                   Benedict Evans –– May 2026    65
+What are the new questions?
+What can you ask an LLM that you could never ask deterministic software?
+
+
+
+
+                                           “What were the
+     “Show me the                                                                 What pricing
+                                           top concerns on
+       data Bob’s                                                                changes would
+                                            customer calls
+     talking about                                                                improve our
+                                            in the last six
+      on this call”                                                                 churn?
+                                              months?”
+
+
+
+
+                                                                           Benedict Evans –– May 2026   66
+What’s the task and what’s the job?
+What do you actually want? What are you trying to do? How do you split the music from the plastic?
+
+
+
+
+      Get the SKU,                                                                       Implicit
+     write the code,                                                                   knowledge,
+     build the XLS,                         What’s the hard                           opinion, taste,
+     write the spec                             part?
+                                                                                          ideas…
+           Task                                                                               Job
+
+
+
+
+                                                                               Benedict Evans –– May 2026   67
+What’s the task and what’s the job?
+What do you actually want? What are you trying to do? How do you split the music from the plastic?
+
+
+
+
+                                                                                     What’s new and
+       What’s the
+                                                                                       different?
+       average?                             What’s the hard
+                                                part?                                 What do most
+   What would most
+                                                                                      people think
+     people say?
+                                                                                     sounds stupid?
+
+
+
+
+                                                                               Benedict Evans –– May 2026   68
+Welcome to the
+beginning
+
+
+
+
+                 Benedict Evans –– May 2026   69
+“This is totally different” - just like the last time
+Memo to 25-year-olds - all of these were very exciting and looked totally different
+
+
+
+
+   Mainframes                 PCs                    Web               Smartphones             Generative AI
+
+
+
+                                                                                  Benedict Evans –– May 2026   70
+        “This is totally different”
+        The market, the capital markets and the opportunity are all different this time. But, it’s always different
+
+
+
+
+        Market values in a platform shift ($bn)
+
+
+1,000
+
+
+
+
+ 750
+
+
+
+
+ 500
+
+
+
+
+ 250
+
+
+
+
+   0
+                    Market cap at issue of all            Private market value of OpenAI   Private market value of Anthropic
+               US venture-backed IPOs 1995-2000
+
+
+        Source: NVCA, BLS, Press reports. 2026 dollars.                                    Benedict Evans –– May 2026          71
+How many times have we
+been here before?
+
+
+
+
+Source: IBM              Benedict Evans –– May 2026   72
+All AI questions have one of two answers
+History doesn’t repeat, but it generally rhymes
+
+
+
+
+                                                                   “What happened
+         “No-one                               Insert your         the last time that
+         knows”                              question here…           everything
+                                                                      changed?”
+
+
+
+
+                                                              Benedict Evans –– May 2026   73
+“No-one knows anything” - William Goldman
+For every new platform, we forget how many ideas failed and how unclear everything was
+
+
+
+
+        Internet                           Mobile internet
+                                                                                   Generative AI?
+     AOL, Yahoo,                          i-mode, J2ME, WAP,
+    Pointcast, Flash,                        JOYN, DVB-H,                          Browsers? MCP?
+    VRML, portals…                          decks, preloads…                      Voice? App stores?
+                                                                                  Wearables? GEO?
+     Sun? Netscape?                           Nokia? RIM?
+
+
+
+
+                                                                             Benedict Evans –– May 2026   74
+  What will change? “It depends”
+   Sometimes software eats the world, and sometimes it only nibbles
+
+
+
+
+   New York taxis versus Uber (trips per day)               US hotels versus Airbnb (room revenue)
+
+
+
+
+                                                                                                                    Hotels
+                                                 Uber etc
+
+
+
+
+                                                                                                                    Airbnb
+                                                  Taxis
+
+
+
+0                                                                  0
+ 2015                            2020              2024                2015                     2020                  2024
+
+
+
+
+  Source: TLC, Airbnb (NA GBV), Morgan Stanley                                         Benedict Evans –– May 2026      75
+      Which will this be? Is this a job or a task?
+      Outsourcing to the Philippines is 2m jobs and 8% of GDP, based on skill/income arbitrage. Now what?
+
+
+
+
+      Employees in Philippine IT-BPM industry (m)
+
+
+2.0
+
+
+
+
+1.5
+
+
+
+
+1.0
+
+
+
+
+0.5
+
+
+
+
+0.0
+   2010                                     2015                            2020                                 2025
+
+
+
+
+      Source: IBPAP                                                                 Benedict Evans –– May 2026   76
+                   Can you invent new questions?
+                   "What if I don’t have to buy a CD?” versus “what if I can get all the music there is?”
+
+
+
+
+                   Global recorded music revenue, trade value ($bn, 2025 dollars)
+
+
+Usage fees*   50
+Downloads
+Streaming
+Physical
+              40
+
+
+
+              30
+
+
+
+              20
+
+
+
+              10
+
+
+
+               0
+                   2000                           2005                           2010                           2015         2020                   2025
+
+
+
+
+                   Source: IFPI, BLS                                                                                   Benedict Evans –– May 2026     77
+                   *Fees for third party commercial use of sound recordings - eg broadcast, nightclubs, movies etc
+So what can we know?
+We don’t know how this will work, but we can try to ask the right questions
+
+
+
+
+      What can you                          Can this unlock/
+       and your                             break something                        Presume radical
+     competitors do                          crucial in your                         uncertainty
+       with this?                           business model?
+
+
+
+
+                                                                              Benedict Evans –– May 2026   78
+Thank you
+
+
+Benedict Evans
+May 2026
+www.ben-evans.com
+
+
+
+
+                    Benedict Evans –– May 2020
+

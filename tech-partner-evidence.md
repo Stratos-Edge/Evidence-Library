@@ -1,4 +1,18 @@
-# Library D — Tech-Partner Evidence
+# Library D — Tech-Partner Evidence  ⚠️ RETIRED / FROZEN — migrating into Radar
+
+> **Do not add new entries.** Tech-partner *capability* now lives in **Radar** (the firm-wide,
+> version-noded capability hub at `~/Documents/Claude/Radar/`), which does this job in a structured,
+> matchable form rather than a flat markdown file. `/ingest-evidence` no longer writes here.
+>
+> **Where partner capability goes now:** `/radar-ingest` for firm-wide vendor docs/announcements;
+> `/ingest-partner-docs` when the document is tied to a specific client (it deposits the generalized,
+> client-stripped capability to Radar and keeps the client-specific comparison on the FlightPlan).
+>
+> **This file is kept only as a legacy store** until its content is **seeded into Radar** (the
+> `seed Radar from tech-partner-evidence.md` step in `docs/flightplan-master-plan.md`). After that
+> seed completes, this file is removed. Until then it is read-only reference, not a write target.
+> The A/B cross-links below still hold: a partner case study's peer-story (Library A) and de-vendored
+> benchmark (Library B) remain in their libraries.
 
 Reusable, partner-organized evidence about the technology partners Stratos recommends — each partner's published customer case studies, the result stats it provides in sales presentations, and its partner-credibility signals (funding, scale, deployments, adoption). Built so that whenever a FlightPlan recommends a partner, the evidence about that partner is already gathered, cited, credibility-tiered, and validation-checked — reusable for **any** client that partner is presented to. See `README.md` for the shared disciplines.
 
@@ -68,7 +82,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services · enterprise · enterprise search + agents
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-02] — Wealthsimple: 98% employee adoption; ~$1.03M annual cost savings
 - **Partner:** Glean
@@ -85,7 +99,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** primary accessed & confirmed 2026-05-21; enriched 2026-05-21 from the full Glean–Wealthsimple case study
 - **Caveat:** the case study is dated 2023 — >18 months old; figures may not reflect the current deployment.
 - **Tags:** customer outcome · vendor case study · financial-services · mid-market · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-03] — GCash: 2–3 hours/week saved per employee; 90%+ adoption in some departments
 - **Partner:** Glean
@@ -101,7 +115,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services · enterprise · enterprise search + agent builder
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-04] — Super.com: 17x ROI; 1,500+ hours saved monthly
 - **Partner:** Glean
@@ -118,7 +132,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** primary accessed & confirmed 2026-05-21; enriched 2026-05-21 from the full Glean–Super.com case study
 - **Caveat:** the case study is dated 2023 — >18 months old. The onboarding-speedup figure is stated inconsistently within the source (20% headline vs. 18% body text).
 - **Tags:** customer outcome · vendor case study · financial-services · mid-market · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-05] — Leading financial software provider: 3,000+ hours/month reclaimed; $2.3M annual value
 - **Partner:** Glean
@@ -133,7 +147,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services · enterprise · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-06] — Leading specialty-care healthcare provider: 3.5x ROI; scaled to 24,000 employees
 - **Partner:** Glean
@@ -148,7 +162,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor/partner-reported (WWT is a Glean delivery partner)
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · healthcare · enterprise · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-07] — Confluent: 15,000+ hours saved per month; 70%+ adoption
 - **Partner:** Glean
@@ -164,7 +178,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · technology · enterprise · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-08] — Zillow: 1.5+ hours/week saved per employee; 80%+ adoption across 7,000 employees
 - **Partner:** Glean
@@ -180,7 +194,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · technology · enterprise · enterprise search + agents
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-09] — Motive: 2,000+ agents deployed; account-plan build time cut 75%
 - **Partner:** Glean
@@ -196,7 +210,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · technology · enterprise · agentic automation
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-10] — Duolingo: 500+ hours saved per month; 5x ROI
 - **Partner:** Glean
@@ -212,7 +226,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · technology · enterprise · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-11] — Upside: 92% adoption; 2,000+ hours saved monthly; >$1.2M value of time saved
 - **Partner:** Glean
@@ -229,7 +243,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** primary accessed & confirmed 2026-05-21; enriched 2026-05-21 from the full Glean–Upside case study
 - **Caveat:** the case study is dated 2023 — >18 months old.
 - **Tags:** customer outcome · vendor case study · technology · mid-market · enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-26] — Citi: Glean powering the Citi Velocity platform; 57,000 users
 - **Partner:** Glean
@@ -244,7 +258,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · financial-services · enterprise · enterprise search + assistant
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-27] — LinkedIn: 20k MAU in 2 months; managed by 2 engineers vs. 50 for Copilot
 - **Partner:** Glean
@@ -260,7 +274,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported (competitive collateral — note the adversarial framing against Microsoft Copilot)
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · technology · enterprise · enterprise search + agents
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-28] — NVIDIA: Glean as the foundation for NVIDIA's internal GenAI platform
 - **Partner:** Glean
@@ -276,7 +290,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · technology · enterprise · enterprise search / RAG platform
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-29] — Kimberly-Clark: consumer-insights aggregation cut from 3 months to 10–15 minutes
 - **Partner:** Glean
@@ -291,7 +305,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported (competitive collateral)
 - **Verification:** source PDF reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · consumer products / manufacturing · enterprise · document AI / data aggregation
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-30] — Deutsche Telekom: "AskT" employee concierge built with Glean
 - **Partner:** Glean
@@ -307,7 +321,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · telecommunications · enterprise · enterprise assistant
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-31] — Largest home-improvement retailer: 5.3% engineering-output increase; >$8M projected R&D savings
 - **Partner:** Glean
@@ -322,7 +336,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · retail · enterprise · enterprise search / summarization
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-32] — Largest global telecom provider: support agents 47% faster; $10M+ annual savings
 - **Partner:** Glean
@@ -337,7 +351,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Tags:** customer outcome · vendor sales collateral · telecommunications · enterprise · enterprise search / contact-center
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-33] — World's largest ride-sharing marketplace: $1.5M from FTE redeployment; $233M projected efficiency savings
 - **Partner:** Glean
@@ -353,7 +367,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** source PDFs reviewed 2026-05-21
 - **Caveat:** the $233M annual-efficiency-savings figure is an extreme outlier presented with no methodology — treat as an unsubstantiated vendor projection; do not use it client-facing without corroboration.
 - **Tags:** customer outcome · vendor sales collateral · technology · enterprise · enterprise search / summarization
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-12] — Glean partner viability: $7.2B valuation, $200M ARR, 1,000+ employees
 - **Partner:** Glean
@@ -368,7 +382,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 1 — independently validated by independent press on the funding, valuation, ARR, and headcount facts
 - **Verification:** confirmed 2026-05-21
 - **Tags:** partner-credibility signal · vendor website/marketing · cross-vertical · n/a · Work AI platform
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-13] — Glean adoption & agent-action scale: 100M+ agent actions annually
 - **Partner:** Glean
@@ -384,7 +398,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** confirmed 2026-05-21
 - **Caveat:** For Glean's aggregate productivity ROI (110 hrs/user/yr, 36 hrs onboarding, 20% support deflection, 141% three-year ROI) see benchmark [[AB-94]] — the Forrester TEI, kept in Library B because it is a size-normalizable benchmark, not a partner-only signal.
 - **Tags:** partner-credibility signal · vendor website/marketing · cross-vertical · n/a · enterprise search + agents
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-34] — Glean analyst recognition: Gartner "Emerging Leader" in generative AI
 - **Partner:** Glean
@@ -399,7 +413,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 1 on the primary (Gartner / G2 are independent), but relayed via vendor collateral and not independently retrieved — confirm against Gartner directly before client-facing use
 - **Verification:** source PDFs reviewed 2026-05-21; the Gartner reports themselves were not independently accessed (paywalled)
 - **Tags:** partner-credibility signal · vendor sales collateral · cross-vertical · n/a · enterprise GenAI / knowledge management
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ## Partner: Squirro
 
@@ -420,7 +434,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services · enterprise · semantic search / document AI
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-15] — European Central Bank: EUR 7.2M annual savings from workflow automation
 - **Partner:** Squirro
@@ -436,7 +450,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Caveat:** engagement announcement is dated 2022 — >18 months old.
 - **Tags:** customer outcome · vendor case study · financial-services (central banking) · enterprise · semantic search / risk insights
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-16] — Bank of England (PRA): cognitive search live in nine months, sustained high usage
 - **Partner:** Squirro
@@ -452,7 +466,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (central banking) · enterprise · cognitive enterprise search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-17] — Standard Chartered: 97% classification accuracy, 30% faster resolution, >$5M/yr saved
 - **Partner:** Squirro
@@ -468,7 +482,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 on the figures; the project itself is corroborated by an independent Forrester case study and an independent Synechron case study — the strongest-validated Squirro proof point in this section
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (banking) · enterprise · document AI / workflow automation
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-18] — OCBC Bank: 25x faster insight extraction in corporate banking
 - **Partner:** Squirro
@@ -483,7 +497,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported (relationship independently confirmed)
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (banking) · enterprise · enterprise search / document AI
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-19] — Major Latin-American development bank: ~2.5 hours saved per investment report
 - **Partner:** Squirro
@@ -499,7 +513,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (development finance) · enterprise · document AI / drafting
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-20] — Wealth-management firm: 900 client advisors on GenAI Employee Agents
 - **Partner:** Squirro
@@ -515,7 +529,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Caveat:** blog dated 2024-05 — >18 months old.
 - **Tags:** customer outcome · vendor case study · financial-services (asset management) · enterprise · GenAI agents / conversational search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-21] — US retirement-services provider: up to 82% time saved per NIGO case
 - **Partner:** Squirro
@@ -530,7 +544,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (retirement services) · enterprise · GenAI service automation
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-22] — Large financial institution: AI ticket classification, "100x ROI" case study
 - **Partner:** Squirro
@@ -545,7 +559,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · financial-services (banking) · enterprise · document AI / classification
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-23] — International telecoms provider: up to 92% faster ticket resolution
 - **Partner:** Squirro
@@ -560,7 +574,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 3 — vendor-reported
 - **Verification:** primary accessed & confirmed 2026-05-21
 - **Tags:** customer outcome · vendor case study · telecommunications · enterprise · knowledge-graph / service automation
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-24] — Squirro analyst recognition: 2025 Gartner "Emerging Leader" in Generative AI
 - **Partner:** Squirro
@@ -575,7 +589,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Credibility:** Tier 1 — independent analyst (Gartner)
 - **Verification:** confirmed 2026-05-21
 - **Tags:** partner-credibility signal · vendor website/marketing · financial-services / cross-vertical · n/a · enterprise GenAI / semantic search
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ### [TP-25] — Squirro company profile, funding & marquee customer roster
 - **Partner:** Squirro
@@ -591,7 +605,7 @@ Every entry records a **Third-party validation** state. This is the discipline t
 - **Verification:** confirmed 2026-05-21
 - **Caveat:** a reported March 2026 CEO transition (David Clarke succeeding founder Dorian Selz) appears only on Squirro's own site — re-confirm before relying on it.
 - **Tags:** partner-credibility signal · vendor website/marketing · financial-services / manufacturing · n/a · enterprise GenAI
-- **Added:** 2026-05-21
+- **Added:** 2026-05-21 · **Last verified:** 2026-05-21
 
 ---
 

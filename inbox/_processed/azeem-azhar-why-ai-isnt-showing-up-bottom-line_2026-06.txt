@@ -1,0 +1,3 @@
+Azeem Azhar (Exponential View), 'Why AI isn't showing up on your bottom line' — 2026-06.
+Source: https://www.linkedin.com/pulse/why-ai-isnt-showing-up-your-bottom-line-azeem-azhar-okwhf/ (LinkedIn full-excerpt; tail paywalled on exponentialview.co).
+Ingested 2026-06-17 -> PG-112..115, AB-139; PS-86 enhanced (Macdonald verbatim quote); Klarna dedup -> PS-17; Uber dedup -> PS-86/AB-130.

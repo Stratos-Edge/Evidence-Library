@@ -2,7 +2,7 @@
 
 Four reusable, cited bodies of evidence that every FlightPlan draws on. Built once, curated continuously, reused across engagements — so each engagement makes the next one stronger.
 
-## The four libraries
+## The libraries (three active; Library D retired into Radar)
 
 **`peer-stories.md` — Library A: Peer Stories.** Named-company AI transformation stories — what a company did, what changed, what its leadership said. Qualitative evidence for the FlightPlan's transformation narrative: the value an AI-forward operating model unlocks beyond expense reduction. Entries are tagged so a FlightPlan pulls the relevant subset.
 
@@ -10,7 +10,7 @@ Four reusable, cited bodies of evidence that every FlightPlan draws on. Built on
 
 **`principles-and-guidance.md` — Library C: Principles & Leadership Guidance.** Quotable principles, frameworks, and leadership guidance about AI adoption and transformation — not tied to one company's story. Tagged by theme, each either externally cited (and tiered) or marked as Stratos's own point of view. This is what `/draft` draws on to educate, coach, and lead — not just recommend.
 
-**`tech-partner-evidence.md` — Library D: Tech-Partner Evidence.** Partner-organized evidence about the technology partners Stratos recommends — each partner's published customer case studies, the result stats from its sales presentations, and its partner-credibility signals (funding, scale, deployments, adoption). Reusable for any client a given partner is presented to. Mostly Tier 3 — vendor-reported by nature; every entry is tagged by source type and carries a third-party-validation state, so vendor marketing is never laundered into independent fact. A vendor case study that also carries a strong transformation narrative cross-links to a Library A peer story; a generalizable vendor customer-outcome stat is de-vendored into a Library B benchmark so the financial top-down lens can reach it — entering as Tier 3 by default, with independent validation raising the tier rather than gating entry.
+**`tech-partner-evidence.md` — Library D: Tech-Partner Evidence. ⚠️ RETIRED / FROZEN.** Tech-partner *capability* now lives in **Radar** (the firm-wide, version-noded capability hub at `~/Documents/Claude/Radar/`), which does this job in a structured, matchable form rather than a flat markdown file. **No new entries** — `/ingest-evidence` no longer writes here. Partner capability routes to Radar instead: `/radar-ingest` for firm-wide vendor docs/announcements, `/ingest-partner-docs` when tied to a specific client. The file is kept only until its content is **seeded into Radar** (`docs/flightplan-master-plan.md`), then removed. The A/B cross-links still hold: a vendor case study's transformation narrative still earns a Library A peer story, and a generalizable vendor outcome stat is still de-vendored into a Library B benchmark.
 
 ## The two-lens impact model
 
@@ -37,16 +37,18 @@ A FlightPlan leads with Tier 1/2 evidence; Tier 3 is corroborating and captioned
 
 **Provenance / source chain.** Every entry records its full source chain, not just where it was found. The **primary source** — the study, report, author, or company the fact originated from — is what the FlightPlan cites. **Found via** records the document where ingestion encountered it, when that differs. The credibility tier is assessed on the primary source, never the relay. Where a fact is relayed and its primary cannot be verified, the entry is kept but flagged "relayed-only" — never presented as first-hand. This is what lets every stat, story, and quote in a FlightPlan be cited to its true origin, for legitimacy and proper attribution.
 
+**Citation flag (`*`) — unverified original.** A trailing `*` on an entry's ID — paired with a `Citation flag:` field in its source-chain block — means the claim was **published by a named third party (which we cite)** but its **original/underlying source could not be independently verified**. This is the same population that carries _"primary not independently verified — relayed by …"_ in its Verification line; the `*` makes that state visible and machine-detectable so it can propagate into the deliverable. Flagged entries **remain usable and citable** — in the library and in the FlightPlan — but every use carries the asterisk and the standard footnote (see `flightplan-deliverable-standard.md`). The `*` never applies to anything Stratos originated or fabricated; only to real, published, third-party claims whose deeper origin we could not confirm. Where a flagged claim is _also_ **contradicted** by a conflicting figure found while tracing, that contradiction is recorded in the entry body, and the claim should be used (if at all) only for the part that is corroborated.
+
 **De-duplication.** Before adding, check for an existing entry on the same study or company; update the existing entry rather than creating a duplicate.
 
 ## How it's collected and used
 
 - **Ingested by:** the `ingest-evidence` skill — it reads documents dropped in `inbox/`, routes each library-worthy fragment to the right library, and traces every fragment to its primary source. Run it on demand, or let `/start` call it.
-- **Collected by:** `/start` (every run — a fresh-evidence sweep, the inbox, and the deep tech-partner research that feeds Library D) and `industry-context-research`. Both deposit new, deduplicated, tagged, primary-sourced entries.
-- **Used by:** `/draft` (peer stories and principles for the transformation narrative; tech-partner evidence wherever a partner is recommended), `financial-impact-modeling` (benchmarks for the top-down lens), and the tech-partner research in `/start`.
+- **Collected by:** `/start` (every run — a fresh-evidence sweep and the inbox) and `industry-context-research`. Both deposit new, deduplicated, tagged, primary-sourced entries into the three active libraries. (Tech-partner capability is collected into **Radar** now, not here.)
+- **Used by:** `/draft` (peer stories and principles for the transformation narrative), `financial-impact-modeling` (benchmarks for the top-down lens). Partner capability for a recommendation comes from **Radar** (and the client-side vendor comparison from `/ingest-partner-docs`), not Library D.
 
 ## Adding your own material
 
-**Drop a source document in `inbox/`.** You do not decide which library it belongs to. The `ingest-evidence` skill reads it, extracts every library-worthy fragment — stats, company examples, quotes, principles, partner case studies — routes each to the right library, traces it to its primary source, and writes it as a tagged, sourced entry. One document commonly feeds all four libraries. The processed original is archived to `inbox/_processed/`.
+**Drop a source document in `inbox/`.** You do not decide which library it belongs to. The `ingest-evidence` skill reads it, extracts every library-worthy fragment — stats, company examples, quotes, principles — routes each to the right active library (A/B/C), traces it to its primary source, and writes it as a tagged, sourced entry. One document commonly feeds all three active libraries. Any tech-partner *capability* it carries is redirected to Radar (`/radar-ingest`, or `/ingest-partner-docs` if client-tied), not written here. The processed original is archived to `inbox/_processed/`.
 
 Run `ingest-evidence` on demand after dropping documents, or let the next `/start` run pick them up. To add a single entry by hand instead, use the template at the top of the relevant library file.

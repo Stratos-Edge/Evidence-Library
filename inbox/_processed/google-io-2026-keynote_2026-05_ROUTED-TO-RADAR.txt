@@ -1,0 +1,6 @@
+Google I/O '26 Keynote — processed 2026-06-17 via /ingest-evidence (option 2: mine for A/B, rest to Radar).
+Source video: https://www.youtube.com/live/wYSncx9zLIU (captions not reachable).
+Primaries read: blog.google '100 things we announced at I/O 2026' (2026-05-20); developers.googleblog.com I/O '26 developer keynote (2026-05-19).
+OUTCOME: 0 evidence-library entries. A vendor product keynote = all Google capability -> routes to Radar (/radar-ingest), not peer-stories/benchmarks/principles.
+No named-customer transformation stories (Library A), no de-vendored client-scalable outcome stats (Library B), no original transferable principles (Library C).
+Adjacent high-value lead (NOT from keynote, not entered): AMIE / Google Research 'Nature' result — conversational medical AI matches primary-care physicians in complex disease management. Worth a separate ingest from the Nature paper.

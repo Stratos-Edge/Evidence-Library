@@ -1,0 +1,961 @@
+==========================================================================================
+DATE: 2026-05-01  | AUDIENCE: only_paid
+TITLE: The buying rule for your personal AI computer (and how to skip the $5,000 mistake)
+SUBTITLE: Six layers, three example builds, and the case for owning your AI infrastructure end to end.
+URL: https://natesnewsletter.substack.com/p/personal-ai-computer-stack
+------------------------------------------------------------------------------------------
+AI is making the computer on your desk important again. The question most people have not answered yet is which parts of that should they own.
+Most local AI advice stops at “install Ollama and run a model.” That was the right starting point in 2024. It is not enough anymore. The real opportunity is a six-layer stack — hardware, runtime, models, memory, applications, and workflows — where the pieces compound because you own them. Your meeting notes become searchable. Your code stays private. Your context survives across tools. Your inference is unmetered, so you experiment instead of ration.
+This is not an anti-cloud argument. Codex, Claude Code, and the best frontier models are extraordinarily useful, and they are reaching deeper into personal computers every month. That is the trend worth paying attention to. But the deeper AI reaches into your work, the more valuable it becomes to own the substrate underneath. Use the frontier model as the specialist. Stop renting it the rest of your life.
+The open-weight ecosystem now makes this practical. Llama 4 Scout and Maverick, gpt-oss, DeepSeek V4, Qwen3.6, Gemma 4 — the model layer changes every quarter. The architecture is the durable part, and that is what this piece builds.
+Here’s what’s inside:
+
+The six-layer stack. The full architecture for a personal AI computer, from hardware through workflow, with what to choose at each layer.
+
+Three complete builds. Concrete stacks for the knowledge worker, the privacy maximalist, and the local-first developer.
+
+The buying rule. How to decide what to own, what to rent, and how to avoid buying expensive hardware with no job.
+
+The routing map and the build plan. Two prompts that classify your workflows into local, cloud, or hybrid, then design a phased stack around the ones worth owning.
+Let me walk you through the full stack.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-02  | AUDIENCE: only_paid
+TITLE: AI agents are about to route around every tool that can't pass 5 structural tests. Here's the diagnostic.
+SUBTITLE: Spoiler: the issue trackers won. 
+URL: https://natesnewsletter.substack.com/p/issue-trackers-agent-infrastructure
+------------------------------------------------------------------------------------------
+Karri Saarinen, the CEO of Linear, declared issue tracking dead in March. His argument was reasonable. Issue trackers were built for a world where coordination between humans was the bottleneck, and when agents can interpret context directly, that translation step is friction. It was a clean thesis from a designer who had spent his career making the category better.
+Then OpenAI open-sourced Symphony, and Linear became the literal control plane for the most ambitious autonomous-coding system ever shipped. Some internal teams saw a 500% increase in landed pull requests. The thing Saarinen had just eulogized was now the substrate that made all of it work.
+He was right about the user experience and wrong about the infrastructure. The translation step is going away. The state machine, the assignee field, the audit history, the dependency graph, those are staying. They are quietly becoming the most strategic infrastructure in the enterprise software stack, and that repricing extends to every boring tool you own.
+Here’s what’s inside:
+
+The five properties that make a tool agent infrastructure. Why Symphony looks obvious in retrospect, and a diagnostic you can run on every system in your stack.
+
+Why your UX choice was actually a data choice. How Linear’s design discipline accidentally produced the cleanest agent substrate on the market, and what that means for tool selection from here.
+
+The Atlassian repricing. The MCP server, the Anthropic partnership, the acquisition rumor, and why the market is treating Jira’s installed base as a strategic AI asset.
+
+Which of your tools are next. CRMs, ERPs, service desks, calendars, spreadsheets: five yes-or-no questions that tell you which ones become agent infrastructure and which ones get wrapped.
+
+What to do about it. Three prompts that score your stack, spec out an MCP server for anything you build, and produce the migration brief your leadership team is missing.
+It started with a bug tracker in 1998. The accident is the whole story.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-03  | AUDIENCE: founding
+TITLE: Executive Briefing: What Stripe Sessions 2026 actually means for how you sell
+SUBTITLE: Stripe’s agent announcements are not really about autonomous shopping. They are about what happens when commercial intent no longer has to pass through a seller’s funnel.
+URL: https://natesnewsletter.substack.com/p/agentic-commerce-buyers-power
+------------------------------------------------------------------------------------------
+Stripe spent its 2026 Sessions conference announcing a stack of agent commerce infrastructure, and the consensus reading is already locked in: agents can now spend money. That reading is accurate, legible, and incomplete. The stranger thing, and the more important one, is that Stripe is preparing for a version of the internet in which the seller no longer controls the place where buying begins.
+Every funnel on the internet has been an institutional arrangement for making human intent observable inside a space the seller controlled. Agents break that arrangement. The decision now begins wherever the buyer already is — inside ChatGPT or Gemini, inside a coding agent, inside a procurement workflow, inside the buyer’s own context and memory. By the time the seller sees anything, the choice is mostly made. For the first time in two decades, power in the internet economy is moving from sellers to buyers. The infrastructure Stripe announced this week is what makes that movement operational.
+The old internet asked: how do we bring customers into our store? The next internet asks a more interesting question: how do we become usable by the customer’s agent when the customer never comes to the store at all?
+This briefing covers:
+
+Why instant checkout was the wrong target. What Walmart’s failed ChatGPT experiment proves about where transactions actually want to live — and why the answer is not “inside the chat.”
+
+Payment authority traveling with the task. How Link’s wallet for agents relocates the moment of commercial decision out of the seller’s flow — and why cards and stablecoins both matter for the world that’s coming.
+
+Fraud as the binding constraint. Why token theft is becoming the defining economic risk of AI distribution, and why this is no longer a Stripe-only story — Microsoft, Meta, Visa, Mastercard, and PayPal are all running at the same architecture.
+
+Brand migrating to the buyer’s memory. Why agents will not feel brand loyalty but will carry it — and which companies survive when sellers no longer get to perform the brand on every visit.
+
+The new competition is to be callable. A diagnostic frame for whether your business can complete an economic task with an agent on the other side.
+What follows is not a product review of this week’s announcements. It is a structural read of where commerce is going, and what businesses need to do to remain reachable when buyers stop arriving the old way.
+Executive Circle members enjoy all these Sunday briefings! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-05-04  | AUDIENCE: only_paid
+TITLE: 55-75% of your week is on thin ice. Here is the audit that shows you which part.
+SUBTITLE: An honest audit of your mid-career role in 2026: what’s theatre, what’s commodity, what’s actually yours, and how to keep what’s yours when the line moves.
+URL: https://natesnewsletter.substack.com/p/job-at-risk-ai-audit
+------------------------------------------------------------------------------------------
+If you have been working in knowledge work for more than five years, you have a quiet suspicion about your own job that you have not said out loud. Your manager is happy. The numbers look fine. And yet, when you look at the last two weeks of your work — what you actually spent your time on, item by item — there is a feeling you cannot shake. Some part of what you did does not feel like it was pulling weight anymore. You cannot tell which part. You suspect it is bigger than you are admitting.
+That feeling is telling you something important, and most of the available career advice is not. The standard framings (develop judgment, build taste, articulate your role) tell you what to do without telling you which part of your current week actually needs it. Your job is not one thing. It is fifty small things packed into one title, and some of them are more yours than others.
+This piece is the audit. By the end, you will have a specific method for sorting your last two weeks into four buckets (theatre, commodity, on the line, and durable) and a set of moves for redirecting your week toward the work that compounds.
+Here’s what’s inside:
+
+The polite fiction layer. Why fifteen to thirty percent of most senior roles is theatre that AI absorbs first, and why nobody is saying so.
+
+The audit. A ninety-minute method for tagging every item in your last two weeks with one of four letters: T, C, L, or D.
+
+Four insights the audit reveals. Question-holding vs. question-answering, where your work actually compounds, the legibility paradox, and why identity is the real obstacle.
+
+Six moves for pathing forward. In order of immediacy, from cutting theatre to knowing when the honest answer is a different role.
+
+Making durable work legible. The prompts that run the audit for you and build your D-bucket record over time, plus another chance to sign up for Nate’s TalentBoard below the paywall.
+Some of what follows is uncomfortable. I am going to ask you to look at some things about your own job that the polite collective fiction of your workplace has agreed not to look at. The fiction worked when there was no cost to maintaining it. There is a cost now.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-05  | AUDIENCE: only_paid
+TITLE: The Anticipation Gap: Why 4 Problems Have to Be Solved Together for Consumer AI to Work
+SUBTITLE: Why no breakaway consumer agent has shipped, what the active bets are, and where the breakthrough probably comes from.
+URL: https://natesnewsletter.substack.com/p/consumer-ai-anticipation-gap
+------------------------------------------------------------------------------------------
+The most 2026 problem in consumer AI is that the software is finally capable enough to help, and somehow it has become one more thing to manage. More tabs, more sessions, more partial tasks, more agents asking which gift to buy and which flight to book and which email to send. The agents are real. They work. And the product they have collectively produced is another inbox.
+That is not what consumer AI was supposed to look like in 2026.
+Two things are true that almost nobody holds together. Consumer demand for AI is enormous and proven. ChatGPT crossed 900 million weekly users in February, Claude is normal household language, Gemini touches a billion search users daily. And agentic capability is real and shipping. Coding agents ate the developer tooling stack in a year, ChatGPT Agent will book your flight, Manus runs research while you sleep. The demand is there. The capability is there. So where is the consumer agent your parents would use? The household name a hundred million normal people use to delegate the boring parts of their lives?
+The polite answer is “it’s coming.” I think the honest answer is that the missing piece is anticipation — the move from a system that responds when you ask to a system that acts at the right moment without being asked. None of the consumer agents shipping today have crossed that line.
+Here’s what’s inside:
+
+The reactive ceiling. Why ChatGPT broke through and consumer agents haven’t.
+
+The four problems no shipping product has solved. Context, reliability, permission, judgment. And why solving three of four equals zero.
+
+The bets in the field. A scored read of every active thesis: Poke, Clicky, Cluely, Manus, ChatGPT Agent and Atlas, Cowork, the browser pack, the wearable category, Granola, Wispr, the companion category, the build-on-demand category, and the verticals.
+
+The four paths to the breakthrough. Probability-weighted predictions, including the contrarian bet that gets the least coverage.
+
+A working calendar hygiene system you can run today. The closest a normal person can get to what an anticipatory agent should feel like, built out of tools that already exist.
+The teams that build against anticipation are the ones who win consumer AI for the next decade. Most of the others are building against the surface narrative.
+Subscribers get all posts like this!
+
+==========================================================================================
+DATE: 2026-05-06  | AUDIENCE: only_paid
+TITLE: The next AI platform winner won't have the best model. They'll own something most companies don't even see yet.
+SUBTITLE: Why access without meaning is the most expensive mistake in AI right now.
+URL: https://natesnewsletter.substack.com/p/ai-work-primitives-access-vs-meaning
+------------------------------------------------------------------------------------------
+Agents can finally use computers like humans do — open browsers, click forms, move calendar invites, run commands. The spectacle is real. It is also a distraction.
+Every AI product announcement in the next year will look like progress. Most will be progress on access — the agent can now reach one more thing. A smaller share will be progress on meaning — the system actually understands what it is doing. Demos make the two look identical. Six months into a real deployment they feel completely different: access-only products are still demanding constant supervision, and meaning-rich ones are quietly compounding. If you are building, buying, or betting on AI tools right now, the difference between those two categories is the most important call you will make this year.
+Computer use exists because most software was designed for human interpretation — and a person knows that moving a calendar invite is not just changing a row in a database. It may notify attendees, alter someone’s preparation, break a commitment, or reschedule a meeting that took three weeks to set. The agent can infer some of that. Inference over a human interface is not the same as software exposing the meaning of the work directly. That distinction is the next platform fight.
+Computer use gives agents reach. Semantic control gives them judgment. The long-term moat is not the ability to click the button. It is ownership of the layer that tells the agent what the button means.
+Here’s what’s inside:
+
+Why coding agents arrived first. The structural reason software development became the wedge — and what it tells you about which kinds of work agents will conquer next.
+
+The Stripe move most people misread. Why a structured payment token is strategically deeper than any agent that clicks checkout buttons.
+
+The trap Perplexity is trying to escape. Why moving from answering to operating is necessary but not sufficient.
+
+The Salesforce vs. SAP wager. Two opposite bets on agent-readability, and the buyer behavior that decides which one survives.
+
+The better product test. A single question to ask of every AI product announcement that cuts through the demo theater.
+
+Three diagnostic prompts. One to evaluate any AI product announcement against a ten-dimension semantic depth test, one to audit a tool already in your stack and decide whether to extend, wrap, replace, or wait, and one to run a structured post-mortem after an agent’s action succeeded but the outcome was wrong.
+What follows is how the divergence is unfolding — and what to look for in the products you are evaluating, building, or betting on.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-07  | AUDIENCE: only_paid
+TITLE: OpenClaw, Anthropic, and Gemma 4 just redefined what "agent framework" means. You need to pick a side.
+SUBTITLE: Anthropic restricted, OpenAI opened, Google shipped Gemma 4, and OpenClaw stopped being model-dependent. Things are getting spicy!
+URL: https://natesnewsletter.substack.com/p/openclaw-agent-runtime-model-swapping
+------------------------------------------------------------------------------------------
+In April, OpenClaw stopped being an agent harness and started being a runtime.
+A month ago, the easy descriptions still fit. Chatbot wrapper, Claude launcher, viral terminal toy. By the end of April, none of them held. OpenClaw became an action layer for agents — a place where tasks, tools, memory, channels, permissions, subagents, and model choices come together into durable workflows. The model is no longer the product. The runtime is.
+That shift matters because the model layer underneath it became more contested at exactly the same time. Anthropic pulled subscription-backed third-party usage back toward its own products. OpenAI moved the other way, opening ChatGPT and Codex subscription usage to OpenClaw users. Google shipped Gemma 4, built explicitly for agentic and on-device work. Local models got good enough for more background tasks. Claude is still valuable, but increasingly as a metered premium component rather than the default flat-rate engine for everything.
+The mistake is to let the runtime fight swallow the product story.
+A month ago, the builder ambition was to make an agent do something useful. Now it is to build a durable workflow once and swap the model underneath it. That is a much bigger idea, and it changes the builder opportunity completely.
+Here’s what’s inside:
+
+Why April was the threshold month. TaskFlows, channels, memory, and routing all matured at once, and the combination is what crossed the runtime line.
+
+The Anthropic move, in context. What changed, why it was rational, why the developer community reacted the way it did, and what it tells you about the next twelve months.
+
+The seven workflows you can now actually build. Repo operations, code review memory, incident response, customer feedback, meetings to execution, model-aware routing, and team memory across agents.
+
+Why memory has to live outside the model. If the brain is swappable, memory cannot live inside any one brain — and that has implications for how you architect anything you build on top of OpenClaw.
+
+The Open Brain Agent Memory launch. A live ClawHub skill, a plugin package, and four recipes — code review memory, TaskFlow work logs, the OpenClaw Agent Memory recipe, and a Safe Agent Memory contract that draws the line between evidence and instruction.
+The labs will keep fighting over the brain. The interesting question is what builders should do while they fight.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-08  | AUDIENCE: only_paid
+TITLE: 271 bugs found in Firefox, zero written by a human attacker. What this means for the future of safe code + 2 prompts
+SUBTITLE: The best code you'll ever ship might not be written by a human. That's a good thing.
+URL: https://natesnewsletter.substack.com/p/ai-code-trust-verification-shift
+------------------------------------------------------------------------------------------
+Mozilla’s Mythos experiment reads, at first, like a cybersecurity story. Anthropic built Mythos for vulnerability research. Mozilla pointed it at Firefox. The previous AI scan, run with a general-purpose model, surfaced 22 security-sensitive bugs. One release cycle later, with the purpose-built model, the number was 271. The Firefox security team — a group that has spent two decades being skeptical about new tools — published the result with the kind of careful enthusiasm that means something has actually changed.
+The 271 is striking. The story underneath it is bigger, and it is not really about cybersecurity at all. Software has always rested on a quiet assumption that human-written code is the trust anchor and machines are there to check it. Mythos is the first serious sign that the assumption is about to flip. Serious software in the next era may be generated, attacked, repaired, and verified by machines, while humans hold a different role entirely: defining what the system is allowed to mean.
+If that flip is real, the standard of trust rises faster than most teams are ready for. Hand-written code without adversarial machine review starts to look incomplete. Codebases that were merely messy start to look structurally unsafe, because the tools that could make them safer cannot operate on a system nobody can read. There is a window to get ahead of this — short, uneven, and closing.
+Here’s what’s inside:
+
+The inversion of authorship. Humans wrote, machines checked. Mythos starts to flip that. What it means when generated code becomes the more trusted version, not the less.
+
+When trust becomes scarce. Code is about to get cheap to produce and expensive to trust. The teams that win the next year are the ones that build for that gap on purpose.
+
+Comprehensibility as a security property. Why the next four to five months are a refactor window — and why teams that wait will discover their codebases are too tangled for the new tools to help.
+
+Where the timing lands. What this means if you are an individual contributor versus a team lead versus a CTO — and why the budget conversation is already late at the top of the org.
+
+Audit your readiness now. Two prompts that tell you whether your codebase is legible enough for the next generation of adversarial review tools, and whether your evals for AI-generated code are catching the right things.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-09  | AUDIENCE: only_paid
+TITLE: OpenAI made Codex smart enough that the bottleneck moved. Most people haven't noticed where it went.
+SUBTITLE: Codex plugins matter because the bottleneck moved.
+URL: https://natesnewsletter.substack.com/p/codex-plugins-bottleneck-moved
+------------------------------------------------------------------------------------------
+Open a new Codex thread and you are the operating system.
+You explain the repo. You paste the standard. You point at the docs. You list the tools. You list the failure modes you do not want the agent to repeat. By the time it is ready to act, you have done a real chunk of the work yourself, just to get the work started.
+That part did not get better with GPT-5.5. The model did. Codex is now at 82.7% on Terminal-Bench 2.0, up from 75.1%, and the lift you actually feel is bigger than the number reads, because the model can now stay inside long, multi-tool tasks without losing the thread. It reviews pull requests against your standards, builds screens from Figma comps, runs tests in a browser, pulls context across Slack, Drive, GitHub, and Linear, and drafts release notes from the diff. The model is good now.
+The work around it is not.
+That is the bottleneck. The workflow lives in your head, and you reload it every thread. From here, the work has to meet the model halfway.
+That is what plugins are for. A skill says how the work should be done. A plugin packages that skill with tool access, live integrations, deterministic checks, the team’s failure modes, and the parts of the standard nobody has written down. Once installed, the agent stops needing you to be the OS.
+The stakes are not subtle. A stronger model with a vague environment does not give you more help. It gives you faster, more confident wrongness. Reviews that miss the team’s review standard. Release notes that drift into engineering language. Customer summaries that mix admin material into the team-facing recap. Each looks fine alone. Together they make a company that runs faster and means less.
+The career version is sharper. The next competitive skill is not writing the longest prompt. It is knowing which parts of your work should become reusable infrastructure. Two years from now, the people who learned to package will be compounding. Everyone else will be explaining the workflow on Tuesday morning.
+Here’s what’s inside:
+
+The bottleneck that GPT-5.5 made visible. Why a stronger model with a vague environment gives you faster wrongness, not more help.
+
+The decision ladder. When to stay with a prompt, when to build a skill, when to package a plugin, and when not to bother.
+
+Which workflows to package first. Five categories worth the investment, and a test for whether yours qualifies.
+
+Grab The Ultimate Codex Plugin Guide + prompts. The full step-by-step build guide from skill file through plugin manifest and debugging checklist, plus seven prompts that take you from workflow audit to installed, tested plugin.
+Let me show you how the bottleneck moved, and what to do about it.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-10  | AUDIENCE: founding
+TITLE: Executive Briefing: Six announcements in 48 hours just changed how enterprise AI gets bought (+ 2 prompts for the new process)
+SUBTITLE: Capital just moved. The question is whether the platform you’re buying can be built on.
+URL: https://natesnewsletter.substack.com/p/enterprise-ai-buying-build-room
+------------------------------------------------------------------------------------------
+In 48 hours last week, six things happened in enterprise AI.
+Anthropic announced a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs; press reports put the venture at roughly $1.5 billion. Bloomberg reported that OpenAI had raised more than $4 billion for a similar enterprise deployment venture backed by firms including TPG, Brookfield, Advent, and Bain. SAP said it would acquire Dremio and Prior Labs. Pinecone launched Nexus, a “compilation-stage knowledge engine” with the claim that 85 percent of agent compute is wasted on rediscovery. ServiceNow shipped Action Fabric at Knowledge 2026, opening its workflow engine to any external agent through MCP, with Anthropic as launch partner.
+These were reported as separate stories. They are the same bet, and the bet is roughly $5.5 billion that capital is moving from buying the model to buying the build. What is being repriced is not intelligence. Intelligence is cheap and getting cheaper. What is being repriced is the surrounding infrastructure that lets an agent reach real data, act through real permissions, run real workflows, and stay inside audit boundaries at a cost the company can plan around. The frontier labs call it forward-deployed engineering. The platform vendors call it governed action. Whatever the label, it is what enterprise AI value depends on, and the people writing the checks have noticed it is more decisive than the model line item ever was.
+If that sounds abstract, the concrete version already happened. In February, an autonomous agent built by CodeWall reached full read-write access on McKinsey’s internal AI platform, Lilli, in under two hours, through one of 22 unauthenticated API endpoints, on a system used by roughly 70 percent of the firm’s 43,000 consultants. The exploit was SQL injection, a vulnerability class from 1998. The story everyone told was about security. The story underneath was about procurement: a platform shipped without the technical voices in the room who would have caught what was on the wire. That is the build room. That is what the $5.5 billion bet is trying to fix.
+This briefing covers:
+
+Why most enterprise AI plans are running on the old buying sequence. Strategy upstream, implementation downstream — agents reverse that order, and the budget allocation is still pointed at the wrong layer.
+
+What the $5.5 billion concession means. The labs putting capital behind forward-deployed engineering is not a marketing posture. It is the bottleneck they are admitting they cannot solve from the model side.
+
+Why context, not tokens, is the line item ruining agent economics. And why capping usage kills the use case without fixing the cause.
+
+The new buying sequence, and where the next quarter’s capital should flow. Three changes that do most of the work — and the test that exposes whether a vendor’s roadmap can survive the build room.
+The next year of enterprise AI will not be won by the most ambitious roadmap. It will be won in the room where the roadmap meets the build.
+Executive Circle members enjoy all these Sunday briefings! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-05-11  | AUDIENCE: only_paid
+TITLE: You gave your AI agent real tools. Here's the 4-part control layer it's missing + the Judge Layer implementation guide
+SUBTITLE: Your agent has opinions. The question is which ones get to leave the building.
+URL: https://natesnewsletter.substack.com/p/agent-judge-layer-production-control
+------------------------------------------------------------------------------------------
+The next serious agent failure won’t look like a jailbreak. It’ll look like an email sent because the thread seemed to imply approval, a customer record updated because the old value looked stale, a pull request opened because the tests passed and the change looked done. None of that requires the model to misbehave, which is what makes it hard. The risk starts where the product gets useful: when language turns into action.
+A chat demo lives in suggestion space. The model drafts, summarizes, answers, proposes, and if it’s wrong, the user rejects it. The cost is local. A production agent lives closer to consequence: it can notify someone, expose private information, change a shared record, trigger a workflow, or spend money. That moves a question to the center of the product demos never had to answer: who decides whether the agent should be allowed to act?
+A better prompt doesn’t really answer it. Telling the model to “be careful” doesn’t either. Approval modals technically reduce risk but ruin the workflow. Users either click through out of habit or stop using the system. The answer that’s actually working is architectural: a separate judge wrapped around the actor, deciding whether each proposed action should move forward. If you’re building agents that act, this is the layer of the product you cannot bolt on later.
+Here’s what’s inside:
+
+The Lindy example. How a multi-channel agent product hit the failure mode every production system eventually faces, and the architectural fix that worked.
+
+Why prompting and approval modals both fail. The structural reasons a single prompt can’t pursue a task and police it at the same time.
+
+Orchestration is not judgment. Why coordinating agents and judging their actions are different problems with different homes in the stack.
+
+The builder toolkit. Action classification, proposals, specialist judges, eval, memory governance, and what to build first.
+
+The OpenBrain Judge Extender guide + the prompt kit that builds your first judge. Five prompts that take you from “my agent acts” to a working judge at your highest-risk boundary, plus the full implementation spec for wiring that judge to durable memory, provenance, and structured write-back so it doesn’t start every session from zero.
+Start with the team that hit this wall publicly and figured out what to do about it.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-12  | AUDIENCE: only_paid
+TITLE: Six layers your agent has to handle. Most products have only thought about two. + a responsibility-layer audit.
+SUBTITLE: The old checkout button hid six commercial responsibilities behind one human click. Software just stopped clicking, and every hidden responsibility has to be named.
+URL: https://natesnewsletter.substack.com/p/agentic-commerce-protocol-war
+------------------------------------------------------------------------------------------
+For most of the internet’s history, a purchase has been a human action that everyone in the chain could see. A person clicked a button on a merchant’s site. A payment credential moved through a processor. A network or wallet weighed the risk. The merchant took responsibility for the order. The records were imperfect, but everyone agreed on the shape of the evidence: a human was present, a page was shown, a credential was used, a final action was taken.
+Agentic commerce breaks that structure.
+Software is starting to hold wallets, sign authorizations, and pay merchants directly. Some of those agents are spending your money. Some are spending your company’s. Some are spending your customers’. When one of them sends money to the wrong place — and one of them will — someone is going to be left holding the bag. Protocol camps are fighting over who that someone is.
+The question stops being “can the customer pay?” and becomes “how does everyone know the agent was allowed to do what it just did?” That question reaches well past checkout. It touches identity, authorization, fraud, payment credentials, settlement, refunds, liability, data rights, and the merchant’s relationship with the customer. The old purchase bundle comes apart, and the market isn’t converging on a single replacement. It’s splitting into protocol camps, each owning a different piece of what used to live behind one click.
+That’s the split. A fight over where commercial trust lives, not over a single button. And it will shape who keeps the customer, who carries the loss, and who gets to write the rules of online buying for the next decade.
+Here’s what’s inside:
+
+The first round of the fight is already over. OpenAI and Stripe shipped Instant Checkout in September. Five months later it was scaled back, while Shopify and Google’s counter-protocol gained ground.
+
+Authorization is not payment. The evidence layer agentic commerce needs, why it has to outlive the transaction, and the two routes Google and Stripe are taking to build it.
+
+The stablecoin case that holds up. Software paying software is a different business problem than a person buying shoes, and the rails should be different too.
+
+Where this lands and who owns which layer. Why AWS quietly matters most, and what every kind of builder, merchant, and operator should do now.
+
+Two prompts to expose your own gaps. A responsibility-layer audit that forces you to name who owns each piece of an agentic purchase in your product, and an authorization spec that finance and legal will actually accept.
+The split started a year ago. Start with Instant Checkout: how OpenAI and Stripe launched it, and why OpenAI walked it back.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-13  | AUDIENCE: only_paid
+TITLE: Your AI agent is rediscovering 85% of its context every run. Here's the architecture fix (+ Contract Spec, Failure Triage, and Stack ADR)
+SUBTITLE: Why production agents need more than a vector database.
+URL: https://natesnewsletter.substack.com/p/rag-agents-knowledge-layer-architecture
+------------------------------------------------------------------------------------------
+There’s a debate going on right now about whether vector search is obsolete. That’s the wrong layer to be arguing about. The agents I’m watching fail in production aren’t failing because the retrieval method is wrong — they’re failing because the retrieval system can’t assemble what the agent actually needs before it starts acting.
+A vector database can find text semantically related to a question. Useful, but nowhere near enough. Agents need the current account record, the user’s permissions, the controlling policy, the right section of a long document, the table behind a metric, the prior decision from a meeting, and the source trail that lets a human reviewer reconstruct why the agent did what it did. When the system doesn’t prepare that context, the model improvises — and the cost shows up everywhere except the place you’re looking. Wrong refunds get issued. Stale policies get cited. Outdated metrics make it into board decks. The agent burns tokens and wall-clock time rebuilding context every run, and when the answer finally lands, it lands confidently — which is the most expensive way to be wrong. That’s the new RAG problem — not a retrieval problem, an assembly problem.
+So the next move isn’t “vectors versus something else.” It’s that vector search is quietly getting demoted from the whole architecture to one component inside a broader knowledge layer for agents — a layer that includes retrieval, but also document structure, semantic data models, access control, provenance, memory, and write-back. I want to be careful not to overstate this: vector search isn’t going anywhere. But the conversation about where the real work happens has moved.
+Here’s what’s inside:
+
+Why classic RAG worked — and where it stops working. How to spot the moment your retrieval architecture became the bottleneck instead of the solution.
+
+What Pinecone, PageIndex, SAP, and Dremio are all saying. Four different companies, one shared shift in what “retrieval” actually means for agents.
+
+The practical architecture. Seven questions to test whether your knowledge layer can support a production agent.
+
+What could go wrong. Where this new architecture quietly breaks, and how to tell if you’re overbuilding.
+
+How to put this to work. A Retrieval Contract Spec, a Failure Triage, and a Stack ADR: paste-ready artifacts for the three states a builder hits when working on retrieval.
+Let’s walk through how this shift is playing out across the stack, and what it means for how you build.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-14  | AUDIENCE: only_paid
+TITLE: Six things have to be true before AI changes a workflow. Most companies have built two.
+SUBTITLE: 
+URL: https://natesnewsletter.substack.com/p/enterprise-ai-deployment-layer
+------------------------------------------------------------------------------------------
+The interesting thing about Anthropic’s new enterprise AI services company isn’t the services part. Enterprise software has always needed implementation help: cloud migrations, ERP projects, Salesforce rollouts, the forward-deployed engineering Palantir made famous. What’s new is the target. Anthropic is aiming this venture at mid-sized businesses: the segment with enough operating complexity to benefit from frontier AI, but rarely with enough internal engineering to turn it into working systems.
+That target tells you something. The hard part of enterprise AI is no longer buying access to a powerful model. Any company can approve ChatGPT Enterprise, Claude, or Gemini, buy seats, call an API, and produce impressive internal demos. None of that proves the company has actually changed how support tickets move, how invoices close, how compliance reviews happen, or how customers get served. Value shows up when the model has a specific role in a specific workflow, with the right data, permissions, review process, and success metric. That work is what most companies haven’t built. In the last few months, agents have gotten reliable enough at running entire workflows that the distance between companies that have built it and companies that haven’t is starting to compound.
+That’s why Anthropic, OpenAI, Blackstone, Hellman & Friedman, and Goldman Sachs are all making moves right now. The implementation layer has become the strategic layer in enterprise AI. There are trillions of dollars in workflow value waiting on whoever figures this out first, and the companies that already understand this are about to pull further ahead.
+Here’s what’s inside:
+
+What’s actually new about the Anthropic deployment company. Why the mid-market target and PE backing signal a shift from model sales to deployment capacity — and what private equity sees that the market doesn’t.
+
+What “implementation architecture” actually means. The technical and operational work that separates AI experiments from production workflows.
+
+The risk: services that don’t turn into product. When field work compounds into reusable assets versus when it stays bespoke.
+
+What this means for startups, buyers, and builders. Where narrow, deep ownership beats generic AI productivity plays — and the specific move each one should make next.
+
+The implementation architecture audit. A prompt that scores your AI product against the six components, tells you whether you own a workflow or decorate a model, and surfaces the two questions that will end your next enterprise deal.
+Let me show you how the pieces connect, and what the next phase of enterprise AI actually requires.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-15  | AUDIENCE: only_paid
+TITLE: The 2 prompts I'd run before any 2026 SaaS renewal (especially if you're deploying agents)
+SUBTITLE: The seat is not dead. It is being wrapped in a meter for delegated work.
+URL: https://natesnewsletter.substack.com/p/saas-agent-license-renewal
+------------------------------------------------------------------------------------------
+For two decades, SaaS pricing pulled off a beautiful trick: it turned work into seats. Ten reps in the CRM meant ten seats. Fifty reps in the help desk meant fifty seats. The model was legible because the human was the unit of software value. A person logged in, clicked, updated records, sent messages, and the vendor charged for that person.
+That model just cracked.
+Salesforce booked $800 million in agent revenue last quarter, up from $540 million the quarter before. Its CRO Miguel Milano told analysts, “We have found the formula to monetize AI.” Microsoft added a separate $15-per-user license for agent governance, sitting alongside the $30 Copilot seat. SAP put hard limits on which agents are even allowed to call its APIs. ServiceNow, Workday, Zendesk, HubSpot, and Atlassian each added their own meter under their own name.
+Your next SaaS renewal will price two things: who logs in, and what work moves through the system. If you walk in counting seats, you’ll sign for the headcount you already have and pay for the agent work on top. Once usage is embedded in customer workflows, support deflection numbers, and the finance close, the negotiating position flips. The vendor knows the work has moved. You know turning it off would hurt.
+Here’s what’s inside:
+
+The eight-vendor pattern. What each one calls its agent meter, and which one your renewal will hit first.
+
+The hybrid model most companies will land on. Why Microsoft’s three-layer stack is probably the template.
+
+Fair license vs. rent-seeking. Nine traits that separate a defensible meter from a vendor capturing the AI efficiency.
+
+The negotiation list. What to ask at renewal, and the one question most vendors will try to dodge.
+
+Two prompts to run before you renew. A system touch map for builders before procurement reviews it for them, and a vendor-specific question sequence for CFOs walking into renewal.
+But first, the seat stays — even as the meter changes. Then we’ll look at how each vendor is pricing the work, and what to ask before you sign.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-16  | AUDIENCE: only_paid
+TITLE: Exclusive: a conversation with Tibo from Codex on what your company has to become when the model can actually do the work
+SUBTITLE: 
+URL: https://natesnewsletter.substack.com/p/codex-five-leadership-chairs-tibo-interview
+------------------------------------------------------------------------------------------
+Between the launch of the new Codex and GPT-5.5 and now, something happened in my own house that has stayed with me more than any benchmark. My wife, who is not an engineer, built and shipped a working full-stack app. She is using GitHub for the first time. That is one anecdote, not a trend, and I am wary of overreading it. But it is the cleanest signal I have for what the April release actually did. The model can now carry the work, and the surface area of who can ship working software has widened far enough that the question of where human judgment lives inside a company stops being a developer question and starts being a leadership one.
+I sat down with Tibo, who leads Codex at OpenAI, to ask what changes for companies now that the model can do the work. I’ve written about this a few times since GPT-5.5 and Codex dropped in late April: the bottleneck has moved twice. The first move was from “the model can’t do the work” to “the model can’t do the work the way our team would do the work” — the workflow-packaging problem, which I covered last week. The second move does not land in a workflow file at all. It lands in five different leadership chairs across the company, and each of those chairs has to develop a new instinct that almost nobody is teaching. Our conversation kept circling back to a single organizing point: the model is good now, and the question that matters has shifted to where you put the human judgment around it. What follows is my attempt to write down the takeaways from that conversation and push the framing further than we got to in the room.
+I’ve been thinking about what happens to companies that skip this layer. Some will over-restrict to the point that the agents are useless and the team works around them. A smaller number will under-restrict and end up with an incident that turns into a board-level event. The companies that do the quiet work of building the five layers will look unremarkable for two quarters and then will be impossible to catch. Watching who joins that last group is going to be one of the more interesting things to track over the next year.
+I’m going to walk through a practitioner template that’s already running this way, the five chairs, and the work each one has to do this quarter. Let’s go.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-17  | AUDIENCE: founding
+TITLE: Executive Briefing: Stop asking if AI can do this. Start asking what shape the work is.
+SUBTITLE: A six-dimension framework for routing AI investment by the shape of the work — before the budget closes.
+URL: https://natesnewsletter.substack.com/p/build-buy-hire-wait-ai-matrix
+------------------------------------------------------------------------------------------
+Every serious AI conversation eventually turns into the same practical question. Should we hire someone for this? Should we automate it? Should we buy a tool? Should we build the workflow ourselves? Or should we wait because the models are changing so fast that anything we build today may be obsolete in six months?
+Most teams treat this as an AI question. That ends up costing time, money, and the work itself. It is a work-shape question. The right answer depends less on how impressive the model demo looked and more on the structure of the work in front of you: how often it repeats, how costly a mistake is, how much judgment it needs, and whether near-term model improvement is about to collapse what you are about to build.
+Shopify gave the market one version of this question when Tobi Lütke told teams they had to show why they could not get something done with AI before asking for more headcount. It stopped hiring from being the default answer to every capacity problem. But “can AI do this?” is the wrong question to stop at.
+Executives are running a capital allocation problem, not a technology question. How you allocate capital has always defined what a firm can accomplish, and the upside variance on AI investment right now is wider than most leaders have ever priced for. Pick the wrong motion for a workflow and the cost is not only the wasted spend. It is also the upside you never captured because the capital landed in the wrong place.
+The wrong answer is expensive in both directions. If you hire against work that AI can already handle, you build a cost structure around disappearing scarcity. If you automate work that depends on trust and judgment, you break the business process at the point where the human mattered most. If you buy a generic tool for company-specific work, you spend months fighting the product. If you custom-build something the market has already solved, you burn scarce builders on infrastructure that should have been a line item. If you wait on a workflow that is already stable and costly, you let delay masquerade as prudence.
+Gartner has put a number on it: more than 40% of agentic AI projects are forecast to be canceled by the end of 2027 because of cost, unclear business value, or inadequate risk controls. Classify the work before the spending starts.
+This briefing covers:
+
+The decision starts with the work. A six-dimension scoring framework that routes each workflow to the right investment motion.
+
+When to automate, build, buy, hire, or wait. Real company examples (IBM, Klarna, Stripe) showing how the shape of the work determines the answer.
+
+The matrix. A two-axis visual that maps market maturity against company specificity, with named examples in every cell.
+
+The executive job is changing. Why routing logic is the new leadership skill, and what happens when executives and builders have the conversation together.
+
+Four prompts that route AI investment. A decomposer that turns a function into scoreable workflows, a scorer that writes the budget memo, a pressure test that forces three counter-arguments before capital commits, and a describability gate that holds automation projects until eight fields are filled.
+Classify the work first. The investment motion follows.
+Executive Circle members enjoy all these Sunday briefings! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-05-18  | AUDIENCE: only_paid
+TITLE: What ChatGPT sees when it looks at your company + 3 diagnostics
+SUBTITLE: 
+URL: https://natesnewsletter.substack.com/p/marketing-humans-and-agents-2026
+------------------------------------------------------------------------------------------
+If I were walking into a marketing role in 2026, I would not start by asking which AI tools the team uses.
+The content workflow is not where I would start. Neither is the lifecycle automation stack, and I would not waste an early conversation asking whether the team is on ChatGPT, Claude, Jasper, Canva, Midjourney, Clay, HubSpot Breeze, Salesforce Agentforce, or some agentic Frankenstein the growth team duct-taped together over a long weekend. Those questions answer themselves once you know what the team is responsible for.
+I would start with a more basic question, the kind that determines whether everything downstream is sane:
+Does this company understand that marketing now has two audiences?
+Most leadership teams think they already know the answer. Almost none of them have internalized what it means. Marketing now serves two audiences at once. It serves the humans it has always served, and the agents that increasingly read, summarize, compare, and recommend on behalf of those humans before any human decision gets made. Companies that miss the split lose on both sides.
+The losses are already showing up in the data. In a March 2026 survey of 1,076 B2B software buyers, sixty-nine percent reported choosing a different vendor than they originally planned because of guidance from an AI chatbot, and roughly a third bought from a vendor they had never heard of before the assistant surfaced it. That is not the work of better marketing. It is the work of a comparison system that read the public surfaces, weighed them against each other, and produced a shortlist — one that often did not include the buyer’s original preferred vendor.
+I’m starting a series on what I would do walking into a job today across the functions AI is reshaping. Marketing first, because I spent a long stretch of my career in and around it. Most of the AI-marketing conversation right now is about tools and adoption curves. This piece is about what the job has to become.
+Here’s what’s inside:
+
+The two audiences, and why most companies serve only one. What agents need is not a better tagline. It’s legibility, and legibility is a different job than persuasion.
+
+The “make more stuff” trap. Why an AI strategy built around content velocity puts your career on the most commoditized layer of the role.
+
+The truth layer. Why marketing has to become the steward of the company’s claims, proof, and product reality, not the decorator of decisions made elsewhere.
+
+Why AI-washing is a trust-debt loan. What happens when companies (and candidates) stretch their AI story past what they can defend, and why the agents catch it first.
+
+What to look for in a marketing role in 2026. The questions to ask before you take the job, and the surfaces marketing has to be allowed to touch.
+
+The AI-washing audit. A skill pack for Claude Desktop, Claude Code, ChatGPT, and Codex that builds your company’s truth layer from the ground up — diagnosis, claims-and-evidence map, AI-washing risk register, and a prioritized fix list.
+Let me show you what the split looks like, why most companies are sitting on the wrong side of it, and what the marketers who win the next decade will be doing differently.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-19  | AUDIENCE: only_paid
+TITLE: Six agent protocols just launched. Three of them decide which products survive. Here is how to tell which three.
+SUBTITLE: Google I/O opens today. The protocol map under the demos is what actually shapes the next twelve months.
+URL: https://natesnewsletter.substack.com/p/agent-protocol-stack-mcp-a2a
+------------------------------------------------------------------------------------------
+Google I/O opens today, and most of the coverage will be about the demos. The more interesting story is the protocol race happening underneath them. Six new agent protocols have launched in the past year, and if you are building or buying agents right now, the standards layer reads like a scrum.
+The instinct is to ignore the acronyms and wait for the big platforms to absorb everything behind product surfaces. The platforms will absorb a lot of it. But the protocols are not all trying to solve the same problem, and the substrate an agent is built on shapes the customer experience more than the model choice does. Read as a pile of competing standards, the picture stays blurry. Read as layers, three of them snap into focus as the foundation most builders will actually depend on.
+Three protocols are forming the core agent stack: MCP for the tools and data an agent can reach, A2A for the other agents it can delegate to, and AG-UI for the controls a human needs to stay in the loop while long-running work is happening. Those three answer the only three questions every real agent system hits within its first week of existence. What can the agent use. Who else can the agent work with. How does the human stay in control. A2UI, AP2, and x402 matter, but they sit in layers where product requirements, trust boundaries, payment rails, and platform incentives are still being negotiated. Treating those three as equal bets with the first three is the most common mistake I see in agent strategy decks right now.
+Builders who try to bet on all the layers at once end up paralyzed. Builders who ignore the layer map ship agents that fail at the boundaries that actually matter, like security on tool access, approval on long-running work, and supervision when the agent crosses company lines. Buyers who cannot read the layer map cannot evaluate what they are actually purchasing when a vendor says the word “agent.” The map is the closest thing the industry has to a shared vocabulary, and the next twelve months of agent product strategy will run through it.
+Here’s what’s inside:
+
+The protocol map. A single table that places all six protocols in the layer they actually occupy, so the acronyms stop blurring together.
+
+The core stack: MCP, A2A, AG-UI. Why these three are converging into the universal foundation, what each one is really for, and where each one fails if treated as a feature toggle instead of a boundary.
+
+Why payments are not one protocol. AP2 and x402 solve different problems, the payment space carries hidden assumptions about geography and authorization, and “agent can pay” is not a button — it is an audit problem.
+
+Map, draft, audit, brief. Map any real workflow to the layers that matter, draft the Agent Card boundary another team will integrate against, audit a workflow for the human controls it’s missing, and produce the strategy brief for the leader making the platform bet — four prompts, one per job, with renewal prep as the worked example threaded through.
+The acronym pile will keep growing. The layer map will not.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-20  | AUDIENCE: only_paid
+TITLE: Seven questions decide whether your AI agent ships. Most teams can answer two.
+SUBTITLE: The model is one piece of the agent economy. The control layer is the other, and most proposals on a CIO's desk have no answer for it.
+URL: https://natesnewsletter.substack.com/p/agent-infrastructure-control-layer
+------------------------------------------------------------------------------------------
+A new class of company has taken up position around the agent economy, and they are the ones who decide whether your agent gets to ship. They do not build models. They are not on most teams’ AI stack roadmap. But every serious production agent has to pass through them, and most agent proposals on a CIO’s desk right now have no answer for what those companies are about to ask.
+The model is one piece of the agent economy. The control layer is the other.
+The control layer is the set of infrastructure decisions that determine whether a model’s output is allowed to act in the world. Where does the agent live. What state does it remember. Who is it acting for. When does it need approval. What can it spend. Who can stop it. None of those questions get answered by a model. They get answered by the companies sitting between the model and your production system, and the last six weeks have made it obvious who they are. Cloudflare ran Agents Week. Stripe expanded its Agentic Commerce Suite. Okta launched Okta for AI Agents and expanded it again this month. Auth0 has been publishing AI Agents docs. Datadog has been turning LLM observability into something that looks a lot more like an agent control plane than a logging product.
+I’ve covered the protocol stack already — the six protocols that emerged and the three that decide which agents survive. This piece is about the operators sitting above the protocols. The companies turning agentic behavior into controlled, permissioned, auditable infrastructure. The companies your security review is about to discover the hard way.
+Here’s what’s inside:
+
+The seven-row control map I would put in front of any agent proposal before it touches a production system, and the one question per row that flushes out the gap.
+
+Why Cloudflare, Auth0, Snowflake, Stripe, and Datadog are becoming the operating system of the agent economy, and what each one is actually trying to own.
+
+The kill switch most teams do not actually have, even though they think they do — and the five layers it has to be implemented at to be real.
+
+A real data leader’s failure mode, live this quarter: her agents are routing around the human permission structure, and she now owns three questions she did not yet know how to answer.
+
+The three prompts paid subscribers get this week. A control-map fill-in for the agent your team is most likely to ship this quarter, a pressure-test for the next vendor pitch on your desk, and a five-layer kill-switch audit for the agent that actually scared you.
+The boring layer is where the power is moving. Let me walk you through the map.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-21  | AUDIENCE: only_paid
+TITLE: 68% of AI power users do one thing differently — and it is not a prompt trick
+SUBTITLE: 
+URL: https://natesnewsletter.substack.com/p/ai-agents-better-communicator
+------------------------------------------------------------------------------------------
+Working with AI agents makes you a better communicator
+Most people are still prompting like it’s November, and the model on the other end stopped being the same machine months ago.
+Opus 4.7 and GPT-5.5 landed in the last two months. The agents built on top of them now run for hours on a single request — they edit files, search archives, write code and test it, and come back with something close to a finished artifact. That capability jump is the largest single move I have watched in two years of doing this work. Our prompting has not moved with it.
+When I look over people’s shoulders, I see the same kinds of requests I saw last September going into a system that is a hundred times more capable. The output comes back polished and mostly useless, and the person at the keyboard concludes the model is mediocre. That is almost never what is actually happening. The assignment is mediocre, and the model is just being honest about it.
+The shift is from prompting to briefing. Last year, the best advice was to talk to AI like a careful junior employee who needed every step spelled out, every format specified, every structural decision made for them. That advice was right for the models we had, and those models needed it. The models we have now do not. A senior partner needs the goal, the context, the constraints, and the quality bar, and then they need room to push back. An agent running on 4.7 or 5.5 works the same way, and most of the leverage in the new models lives in that gap between what you tell a junior and what you tell a senior.
+A prompt is something you type into a box. A useful question is the same thing done seriously — work made legible enough that another intelligence can act on it.
+Here’s what’s inside:
+
+The senior-partner shift. What actually changes about your request when you stop prompting and start briefing.
+
+The generic output trap. Why polished, useless AI work is almost always a mirror of the assignment, not the model.
+
+The six-field brief. The template that turns a vague ask into something an agent can run with for hours without drifting.
+
+The same brief, for humans. Why this makes you a clearer manager, a sharper colleague, and easier to work with than most of your team.
+
+Three prompts that earn their keep. The brief builder for when you do not know how to start, the thin-ask detector for the request you suspect is too vague to send, and the finish line for work that keeps almost being done.
+The brief and the prompts are below. So is the part most people miss: get good at this with the agent and you get better with the humans too.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-22  | AUDIENCE: only_paid
+TITLE: Build the room before you write the memo. Grab the 4-prompt project room kit: source inventory, duplicate log, missing-context list, grounded draft.
+SUBTITLE: The first useful agent workflow is not generation. It is getting the work surface into shape.
+URL: https://natesnewsletter.substack.com/p/ai-organize-files-before-writing
+------------------------------------------------------------------------------------------
+When AI produces a mediocre draft from a messy folder, the prompt is almost never the problem. The room is.
+The model has been handed a strategy doc, two slightly different versions of the operating plan, a transcript with two meetings in it, and a deck that no longer matches reality. It is asked to write a memo. To do that, it has to do two jobs at once: figure out what the project actually is, then produce the artifact. The first job is the hard one. The second job is the one that shows up in the draft.
+A sharper prompt won’t fix this. You need to prepare the room first.
+I recently worked on a project where the real work did not live in one place. A strategy doc, meeting transcripts, a budget spreadsheet, trip-planning notes, org-design drafts, old PDFs, follow-up emails, half-finished notes. Some clearly current. Others superseded. A few useful only because they showed how the thinking had changed.
+The useful first prompt was much more boring than “write the plan.” It was something like: help me build the room. Find the relevant materials. Preserve the originals. Make an inventory. I needed to know which files were authoritative, which were duplicates, which were old, which were missing. I asked it to summarize each source before synthesizing across them, and explicitly told it not to write the final deliverable yet.
+Only after that did the writing prompt become simple. Use the current operating plan for the numbers, the transcript for decision context, the older PDF only as background, and flag unsupported claims rather than smoothing them over. The room made those distinctions visible before the writing started.
+This kind of workflow was not really available a year ago. Agents could draft, summarize, and answer questions, but they were uneven at walking a folder tree, opening files in sequence, comparing dates across documents, and inspecting metadata without losing the thread. In the last few months that has changed. The current generation of agents is good at the small, boring, file-level operations the work actually requires. Which means the bottleneck has moved. It is no longer “can the model produce the artifact.” It is “is the source set in shape for the model to do anything useful with it.”
+Here’s what’s inside:
+
+What is an AI project room. What a bounded workspace looks like for one serious job, and which tools to use for which source types.
+
+Why AI fails with messy source files. Why serious work fails when you skip the preparation step and jump straight to generation.
+
+How to build an AI source inventory. How to build the artifact that makes everything downstream inspectable.
+
+Summaries, duplicates, and missing context. The three preparation layers that prevent bad synthesis before it starts.
+
+The writing prompt, once the room exists. What changes when you draft from a clean work surface instead of a raw file dump.
+
+Grab the four prompts. A room-builder for file-system tools, an inventory-and-audit for uploaded docs, a grounded-draft prompt that cites every claim back to a source, and a refresh prompt for when new files arrive.
+Let’s build the room.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-24  | AUDIENCE: founding
+TITLE: Executive Briefing: Your AI vendor contract isn't built for a capacity crunch. 3 prompts to fix it before your budget meeting
+SUBTITLE: 
+URL: https://natesnewsletter.substack.com/p/ai-big-tech-industrial-business
+------------------------------------------------------------------------------------------
+Microsoft plans to spend roughly $190 billion this year and still expects to run short on capacity. And Microsoft is not alone: across the four biggest hyperscalers, combined 2026 capital spending is on track to approach $700 billion, nearly double what they spent in 2025.
+The fiscal third-quarter 2026 numbers fill in the picture: Microsoft reported $31.9 billion in capital expenditures for the quarter and guided to more than $40 billion in the next. About two-thirds of that quarterly spend went to short-lived assets, primarily GPUs and CPUs. Even after all of it, the company expects to stay capacity constrained at least through the year.
+No classic software company looks like that. A classic software company writes code once and sells it many times, and its biggest worry is talent or distribution, not whether it can physically build enough capacity to meet demand. The cloud was supposed to make infrastructure someone else’s problem.
+AI breaks that abstraction.
+The most important thing to understand about the current AI buildout is that tokens are not magic. They are manufactured. Every answer from a model is the output of a physical production system that consumes chips, high-bandwidth memory, advanced packaging, substrates, optics, power, cooling, land, data-center construction, networking, and operations talent. When it works, a user sees a paragraph, a line of code, a summarized contract, or an agent completing a task. Behind the screen, a factory is turning electricity and silicon into intelligence.
+This is why AI is turning big tech into an industrial business.
+Calling AI industrial is not new. Mary Meeker built a 340-slide deck around it. Jensen Huang says a version of it on every NVIDIA earnings call. What is new is what Microsoft’s number does to the contract sitting on your desk. Six months ago, an AI vendor agreement was structured like a software agreement. Now that the hyperscalers are spending at this scale and still rationing capacity, your AI vendor agreement is a supply contract in everything but name. It has allocation. It needs capacity terms. It needs a fallback. None of that was a line item a year ago.
+If that sounds like a problem for the CFO and no one else, consider that my own token spend ran close to 500 million tokens last week. Multiply that across a team and the capacity question stops being abstract.
+The visible product is still software. ChatGPT, Copilot, Gemini, Claude, Meta AI, and Bedrock all look like applications or APIs, but the constraint underneath them is physical. The strategic question is no longer only, “Who has the best model?” It is, “Who can operate the factory that produces intelligence at scale?”
+This briefing covers:
+
+The bill of materials behind every token. Chips, memory, packaging, power, cooling, construction, and how to tell which one stops your vendor cold before it stops you.
+
+Why your vendor contract is now a supply contract. What to actually ask for when the cloud you buy from is competing with you for the same chips: allocation, fallback, reserved capacity, written down.
+
+Your CFO is about to inherit a capital cycle. Why utilization is suddenly the metric that matters, and why a 40% throughput gain beats a new data center.
+
+Seats are the wrong unit, and almost every plan still uses them. How to forecast in tokens instead, and why an agent that runs for hours belongs in a different budget line than a chatbot that answers questions.
+
+The one question that decides whether AI helps your margins or wrecks them. It is not whether tokens are expensive. It is something more specific, and most companies have never asked it.
+
+Three instruments to run before the budget meeting. A vendor audit that maps the supply chain under your contract and hands you the language to demand, a forecasting model that sizes demand in tokens instead of seats, and a routing diagnostic that finds the workflows burning premium inference on cheap work.
+Microsoft has already put $190 billion behind this view of the world. Most companies have not put it into their AI plans at all. What follows is what changes once you do.
+Executive Circle members enjoy all these Sunday briefings! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-05-25  | AUDIENCE: only_paid
+TITLE: AI made your app teams 10x faster. Nobody gave your platform team 10x the headcount.
+SUBTITLE: I sat down with Emma, who leads data infrastructure engineering at OpenAI, to find out what her team is actually building to stay ahead of the agents.
+URL: https://natesnewsletter.substack.com/p/ai-agents-platform-team-bottleneck
+------------------------------------------------------------------------------------------
+Nobody meant to break anything. A user asked for something routine, an agent found a path through the system, and a Kafka cluster went down. That’s the part that doesn’t show up in productivity dashboards.
+In the same conversation, I heard the opposite version of the same story. A user launched a training-data export job and went to sleep. The job hit a blocker. Instead of waiting for a platform engineer to notice a support ping, the agent inspected several internal systems and found a small bug several layers down. By morning, the job was done.
+Those two examples belong together. They show both sides of the frontier. Agents are now useful enough to participate in real operational work. They’re also capable enough to create real operational risk.
+That’s the next AI bottleneck. Not whether people use agents, or whether agents can code, or whether the next model wins a benchmark. We’re already past those questions. The real question is what happens when the work starts moving faster than the controls around it.
+This came into focus in a recent conversation with Emma, who leads data infrastructure engineering at OpenAI. Her team sits near the bottom of a very large stack: the analytics, streaming, and data infrastructure that almost every other team eventually depends on.
+That vantage point matters. If you’re on an application team, you mostly see whether agents help you build faster. If you’re on a platform team, you see what happens when everyone above you starts building faster.
+Agents make work happen faster. They don’t make it safer at the same rate.
+Here’s what’s inside:
+
+Agents crossed into operations. They’re not writing code for humans to paste anymore. They run release loops and build features end-to-end while a human watches.
+
+The work lands somewhere. When app teams accelerate, platform teams inherit the operational burden nobody budgeted for.
+
+Platform agents play by different rules. Same model, very different blast radius, and the tooling most companies have doesn’t know the difference.
+
+The practical control layer. Four things that let you absorb agent-created work without becoming the permanent bottleneck everyone routes through.
+
+The eval discipline most companies skip. A cheap way to know when an agent is ready for more autonomy and when to pull it back.
+
+Two prompts that build the documents. A private eval suite and a tiered action-class policy, both built from your own systems, not a template.
+Let me show you where this is headed, and what to do about it.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-26  | AUDIENCE: only_paid
+TITLE: One person's best AI session vanishes the second they close the tab. Grab the 3 prompts that make it your team's.
+SUBTITLE: The AI work your company cannot see is the AI work your company cannot learn from.
+URL: https://natesnewsletter.substack.com/p/public-ai-work-team-learning
+------------------------------------------------------------------------------------------
+5,938 Shopify employees worked alongside the same AI agent in a single month, all of it in public. When those numbers surfaced this spring, everyone fixated on the scale. The scale is not the interesting part.
+Almost no other company works this way, and most of them have the opposite problem. Their people are using AI constantly, asking ChatGPT to rewrite emails, using Claude to reason through customer issues, running coding agents against repos, quietly building small workflows that save hours. And almost none of it is visible to anyone else.
+A good prompt disappears into one person’s chat history. A clever correction stays inside one employee’s browser tab. The workflow your best operator nailed last month gets rebuilt from scratch by a new hire who never knew it existed. A senior person figures out how to load context, challenge the model, and review what comes back, and the junior across the team never gets to watch how any of that judgment works.
+The result: individuals get smarter, the company does not.
+That is the missing layer in most AI adoption plans. Companies are buying tools, writing acceptable-use policies, measuring logins, running the occasional training session. None of it touches the actual problem, which is that your best AI work is invisible to everyone who could learn from it. So every quarter, the same lessons get rediscovered from nothing. You are paying tuition on the same lesson over and over, across hundreds of people, and the bill never stops arriving.
+Shopify’s answer is not surveillance. It is not scraping everyone’s chat history and calling it knowledge management. It is something smaller and far more useful: a deliberate way to make non-sensitive AI work visible enough that the people around it can actually learn. The agent that produced those numbers runs only in public. That single design choice is the whole game, and any team can copy it.
+Here’s what’s inside:
+
+What Shopify actually built. Not the AI mandate everyone argued about, but the design choice underneath River, the agent that runs in public and turns one engineer’s judgment into the whole team’s.
+
+Why a prompt library will not save you. The most valuable part of AI work is the part a prompt library cannot hold, and what you have to make visible instead.
+
+Where to draw the line. A workflow-by-workflow boundary for regulated and sensitive work, so you capture the learning without exposing anything that should stay private.
+
+The room, the rules, and the one constraint that makes it work. A setup any team can run in ninety minutes, the metrics that actually signal learning, and the single binding rule that bends a team toward sharing instead of hoarding.
+
+How to bring this into your org. A three-part prompt kit: one that turns a messy AI session into a post your team can learn from, one that draws the line between what’s safe to share and what stays private, and one that helps your senior people model real work in public without it feeling staged.
+Private AI work helps the person at the keyboard. Public AI work helps the company learn. That difference is small today and decisive in a year.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-27  | AUDIENCE: only_paid
+TITLE: The deck got forwarded with a wrong number inside. The Trust Layer's two-model review is built to catch exactly that.
+SUBTITLE: A workflow for turning messy sources into MS Office files you can actually trust.
+URL: https://natesnewsletter.substack.com/p/ai-office-files-verify-workflow
+------------------------------------------------------------------------------------------
+AI builds your board deck now. Drop a folder of messy files into ChatGPT or Claude or Copilot, ask for the deck or the budget or the QBR, and you get back something that looks like finished work. The capability is real and it is not the interesting part anymore. The interesting part is that the file looks done long before it is true.
+Last quarter I opened a workbook that looked like a financial model. Assumption inputs at the top, revenue projections, valuation rolling up cleanly, and a written guide attached saying the model had been validated. Then I opened the revenue growth row. The formula copied the same two cells across every future year instead of rolling forward: =C5/B5-1, again and again. Excel did not flag it. There was no #REF! error. The valuation still looked clean. A busy person signs that deck and forwards it, and the mistake travels with it.
+That is the new Office risk, and it is specific. A deck mixes current numbers with old ones. A spreadsheet carries a formula that points to the wrong cell. A model gets saved as an Excel file with almost no live formulas inside it. A chart looks executive-ready while nobody can say which source the data came from. None of these look wrong. They are wrong in the one way polish cannot show you, because polish is exactly what we are trained to read as trust.
+So stop treating the generated file as the first thing you make. Make the truth layer first: an inventory of your sources, a map of which claim rests on which source, a log of every assumption, and a verification pass that tries to break the result before anyone else can. Build that, and the model gets far more useful, because now it is working on top of something real instead of guessing inside a costume that looks like work. Skip it, and you are shipping confidence you have not earned.
+Here’s what’s inside:
+
+The four-stage workflow that turns a messy folder into a file you can defend: source prep, structure, creation, and verification, in that order and not skippable.
+
+Source prep and structure, the two stages nobody does, and the exact inventory and specification to demand from the model before it writes a single slide or formula.
+
+The PowerPoint rules: how to make slide headlines into traceable claims and turn speaker notes into the evidence layer that survives the forward.
+
+The Excel rules: a raw-data tab, an assumptions tab, and a checks tab that works like a smoke alarm, so a broken formula trips an alarm instead of riding into a board meeting.
+
+The Trust Layer, a guide and prompt kit for Office files that survive the forward: the guide that maps the six ways Office work breaks, plus a five-prompt runbook you paste in order, from the source-packet setup that catches conflicting numbers before a slide exists, to the two-model hostile review that hunts the formula a busy reader would have signed.
+The truth layer is the whole game. The rest of this piece is how to build one.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-28  | AUDIENCE: only_paid
+TITLE: Your agent dashboard is green. The run underneath it is where the work actually broke.
+SUBTITLE: The unit of product behavior is shifting from the session to delegated work.
+URL: https://natesnewsletter.substack.com/p/agent-product-analytics
+------------------------------------------------------------------------------------------
+A Cursor agent deleted a software company’s production database and its volume-level backups in nine seconds.
+This was late April 2026. The founder, Jer Crane of PocketOS, watched it happen. It is the kind of story that gets passed around because it reads like a warning about how dangerous agents have become, or how badly one vendor failed. That reading misses the more interesting thing, which is that nothing on a normal product dashboard would have seen it coming. An active user, a long session, a healthy pile of chat messages, a feature getting used. All green, right up until the moment the database was gone.
+Everything that actually mattered happened inside the run, and that is precisely the part most analytics cannot see. When the user is an agent, the unit of product behavior is becoming the agent run: the work a user handed over, the steps the agent took, the tools it touched, the boundaries it hit, the corrections it got back, and whether anyone accepted the result.
+For the first time in the history of software, we can watch the consequences of our decisions land in real time. You used to make a call, ship it, and wait weeks to learn whether it worked. An agent collapses that loop to minutes, and if you get good signal back while it runs, you can shape and steer it mid-flight. Speed is the engine. Analytics is the rudder. A database that vanishes in nine seconds is what happens when you have a powerful engine and no way to steer.
+Here’s what’s inside:
+
+The events that are the new clicks. What to actually count when the user is an agent and the click, the page view, and the session have stopped telling you anything useful.
+
+Why your traces aren’t your answer. Engineering already has the execution data. Why that’s necessary, not sufficient, and what product still has to build on top of it.
+
+The difference between a task that finished and a task the user trusted. Reading that one gap is how you tell which workflows have earned more autonomy.
+
+The starter setup. The three events to ship this week, the full event schema underneath them, and the prompts that turn that schema into instrumentation in your own stack, your corrections into eval cases, and your numbers into a roadmap.
+Most teams have filed all of this under engineering telemetry instead of product, and that is exactly why the runs keep going fast in the wrong direction. This is how you get the rudder.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-29  | AUDIENCE: only_paid
+TITLE: Your prototype graveyard is leaking secrets. The Prototype Classifier + Demotion Audit decide what stays
+SUBTITLE: PMs used to ration engineering. Now they have to classify abundance.
+URL: https://natesnewsletter.substack.com/p/product-management-cheap-software-governance
+------------------------------------------------------------------------------------------
+Product management has always been a rationing job. Most ideas would not get built. Engineering time was scarce. Coordination was slow. A roadmap was partly a strategy document and partly a rationing system, and product managers helped decide which customer problems, executive priorities, technical constraints, and market bets deserved the company’s limited ability to make software.
+That role is changing, because the cost of a first version has collapsed. The thing entering the product conversation is no longer a request. It is a working artifact. A dashboard. A lightweight app. An agent that already touches a system of record.
+The scale this reaches is already documented. Inside Microsoft, employees have built more than 1 million Power Platform citizen-development assets: 18,000-plus environments, 170,000 apps, 50,000 automated flows, 1,200 chatbots. Most companies are nowhere near that, but the shape of the problem is arriving everywhere, and the product function is the part of the org that has to absorb it.
+The old model asked, “Should we build this?” The new model starts one step later: somebody already built something. Now the company has to decide whether it should matter. The PM is no longer mainly a coordination role around scarce engineering. It becomes the discipline that classifies software abundance into market value, internal reliance, or deletion. That is a more strategic job, and a more technical one. Get it wrong and the failure is not loud. You do not get an outage on launch day. You get a pile of half-real tools nobody owns, spreading into systems of record before anyone decided they were allowed to.
+Here’s what’s inside:
+
+Why the old roadmap filter broke. When a first version costs almost nothing, rationing engineering time stops being the job. You get a clear read on what replaces it, and why the shift is more strategic than the prototyping conversation suggests.
+
+A four-state ladder for classifying what your team builds. Personal tool, team beta, supported internal product, customer-facing product, with the specific user-count and risk thresholds that move a tool from one rung to the next.
+
+The demotion triggers almost everyone skips. The exact signals that tell you a tool you still support has stopped earning it, so you stop paying to keep dead software alive.
+
+Two prompts you can run this week. One classifies any employee-built tool into its real production class and names what promotion would take. The other audits a tool you already support and tests whether it should be demoted.
+The cost of making software fell. The cost of being wrong about what you depend on did not. Below, here is how the product job changes when production stops being the scarce input, and the two prompts that turn it into something you can run on Monday.
+Subscribers get all posts like these!
+
+==========================================================================================
+DATE: 2026-05-31  | AUDIENCE: founding
+TITLE: Executive Briefing: Your career evidence is thinner than you think + 3 prompts that rebuild it
+SUBTITLE: The work you're proudest of is the work you can't show. A discipline for making it travel.
+URL: https://natesnewsletter.substack.com/p/prove-value-work-ai-era
+------------------------------------------------------------------------------------------
+A reader wrote in with a job search problem that has been sitting with me. They had been laid off, and the work they were proudest of was the work they could not show.
+They had made decisions with limited information and kept a team moving through a quarter that could have gone sideways. They had understood a messy system better than anyone else in the room. In interviews, they had to tell those stories over and over to people who were skeptical by default.
+I’ve been thinking about why that problem keeps getting worse.
+AI did not break human judgment. It broke the signal that judgment used to leave behind. A polished memo no longer proves you understood the business. A clean prototype no longer proves you understood the user. Everyone can look productive now. The hard part is seeing who actually understood the work.
+And this runs in both directions. If you run an organization, your evaluation systems are losing signal. If you are the talent — especially if you sit far from the execution layer — the evidence problem is worse. You did not write the code. You did not design the screen. You made the call that kept the company from spending millions on the wrong bet, and there is no artifact for that.
+The thinking layer has to travel with the work.
+The evidence problem I am describing hits hardest at the executive level, because the work is almost entirely judgment — portfolio bets, org design, market timing, decisions that shaped the company for years. None of that ships as a work sample. So this briefing talks to you as someone who evaluates others, but also as someone who may be facing the same problem from the other side.
+This briefing covers:
+
+Build portable judgment evidence. Four questions (situation, decision, risk, change) applied from IC to division lead, with a sanitized case showing how to share reasoning without leaking confidential work.
+
+Change how you evaluate and get evaluated. What to ask in interviews, what to look for in promotion packets, and why AI makes the old evidence unreliable on both sides of the table.
+
+Use the prompts that do the hard extraction. A diagnostic that flags where your career evidence is thin, a builder that interviews you through one real decision, and a question set for when you’re on the hiring side.
+
+Put the evidence somewhere it travels. Why judgment artifacts need a home you own — a TalentBoard profile, a personal site, a packet you bring to interviews — before your badge stops working.
+Executive Circle members enjoy all these Sunday briefings plus access to my MCP server! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-06-01  | AUDIENCE: everyone
+TITLE: Why I’m moving this Substack from daily coverage to deeper weekly work
+SUBTITLE: It's time.
+URL: https://natesnewsletter.substack.com/p/why-im-moving-this-substack-from
+------------------------------------------------------------------------------------------
+I need to make a change to how I show up here.
+For the last year or so, I’ve been in your inbox almost every day covering AI. That was not a gimmick. It made sense for the moment we were in. A new model would ship in the morning. A new capability would show up by lunch. By the afternoon, the practical answer to “what can I build with this?” had changed.
+During that period, keeping up really mattered.
+I think that period is changing. The models are here. The agents are here. The harnesses are here. Execution is getting cheaper by the month. A prototype, a draft, an analysis, a small internal tool, all of that is easier to create than it was a year ago.
+But that has made one thing more obvious to me, not less: the hard part is understanding what to build, why it matters, and how to use these tools well enough that they change your work.
+I don’t think daily AI news is the best way to build that kind of fluency anymore. It can help you know what launched. It cannot, by itself, help you get good.
+And I want this Substack to help you get good.
+So I’m changing the cadence.
+Three anchor pieces a week
+Starting now, I’m going to build this around three serious pieces each week.
+The first is the deep dive. I’ll take the most important AI story or development of the week and go underneath the headline: what happened, what changed, what people are missing, and what it means for the work you’re actually doing.
+The second is the build. This is the one I’m most excited about. Each week I want to give you something practical enough to take to your own machine. Not a “hello world” demo. A real build. The kind of guide where you understand the tool better because you have actually made something with it.
+The third is the executive briefing. For paid executive subscribers, I’m going to keep sharpening the weekly read on where to invest, what leaders need to understand, what is noise, and what decisions are worth making now.
+That is the new default: fewer pieces, more depth, more work that is worth keeping.
+What this looks like first
+I want to be concrete about the first few weeks, because otherwise this can sound like a nice editorial promise.
+I’m working on a full Codex guide that goes well past the feature list. I want to show where it works, where it breaks, and what it feels like to build with it in real workflows day after day.
+I’m also building a token burn dashboard you can run yourself. If you are using APIs and can’t see where the money is going, this will put a working answer on your machine.
+And I’m writing a deep dive on Claude 4.8: what actually changed, what the benchmarks don’t capture, and what it means for the things you are shipping right now.
+That is the standard I want to hold myself to.
+Two other changes
+I’m also standing up a Slack workspace for paid subscribers.
+The reason is simple: a lot of the best conversations around this work happen in replies and DMs, and then they disappear. I want a place where serious builders can find each other, where I can surface useful things faster than a weekly article allows, and where you can ask for help on a Tuesday afternoon instead of waiting for the next post.
+If you’re a paid subscriber, you’ll get an invite this week.
+And I am not disappearing from news.
+If something drops that changes how you should work, I’ll cover it. A major model release, a new capability, a shift that changes the practical answer to “what should I do this week.” Those will still get their own coverage.
+The bar is just higher. If it matters, you’ll hear from me. If it’s interesting but not urgent, I’ll save it for the deeper work. That also means fewer emails from me, which I know some of you have asked for. I’ve heard that.
+What I’m trying to build here
+The gap I keep coming back to is the gap between “I’ve heard of that tool” and “I can build with that tool.”
+I think that gap is going to matter a lot in 2026. For careers. For companies. For anyone trying to lead, learn, build, or make good decisions while the ground keeps moving.
+Most people are going to keep skimming. They’ll read the launch post, save the thread, watch the demo, and feel like they’re keeping up.
+But keeping up is not the same as building fluency. Sometimes it is just watching other people build.
+I don’t want that for this audience. I want this to be the place where you come to understand what matters, practice it, and leave with something you can actually use.
+I can’t do the practice for you. But I can make the work clearer. I can give you better guides, better judgment, better builds, and a stronger place to talk through the hard parts with other people doing the same thing.
+That is what I’m committing to now.
+Fewer emails. Higher bar. More depth. More work you can carry into your own projects, teams, and career.
+I’m grateful you’re here. I’m especially grateful to everyone who has stuck with the daily pace, replied, challenged me, asked for more depth, and pushed this into something better.
+Let’s build.
+Nate
+I make this Substack thanks to readers like you! Learn about all my Substack tiers here
+
+==========================================================================================
+DATE: 2026-06-03  | AUDIENCE: only_paid
+TITLE: Opus 4.8 scored 81 in my benchmark. I still wouldn't default to it. (The full breakdown + Nate's Community Slack)
+SUBTITLE: Claude Opus 4.8 is excellent. The harder question is where it should replace your current workflow, where it should be a specialist, and where turning the reasoning dial up can make the work worse.
+URL: https://natesnewsletter.substack.com/p/opus-48-benchmark-model-selection
+------------------------------------------------------------------------------------------
+Claude Opus 4.8 is excellent. The harder question is where it should replace your current workflow, where it should be a specialist, and where turning the reasoning dial up can make the work worse.
+After I read the runs, I wanted the recommendation to be simple: use Opus 4.8.
+The score almost lets you say that. In my current benchmark suite, Opus 4.8 is the leader. It scored 81 on the strict average. GPT-5.5 scored 71. The rest of the field was well behind: Gemini 3.5 Flash High Fast at 56, Opus 4.7 at 54, Sonnet 4.6 at 52, GPT-5.4 at 51, and Gemini 3.1 Pro at 38.
+If all you want is a leaderboard, the article can end there.
+But that would be a bad article, and it would make you worse at choosing models.
+The result gets more useful when you stop at the individual runs. Opus 4.8 won because it was much better than Opus 4.7 at the parts of work that usually break professional AI output: source discipline, operational judgment, canary handling, provenance, self-correction, and knowing when a messy data problem should be reviewed instead of quietly “fixed.”
+I care about that more than I care about a slightly prettier answer.
+It also did not win every task. GPT-5.5 beat it on the Artemis visualization. Opus 4.8 still had visual and front-end weaknesses in multiple runs. And outside our suite, Andon Labs found a long-horizon business benchmark where Opus 4.8 on max effort did worse than Opus 4.8 on high effort, and both did worse than Opus 4.7.
+That last point is the one I keep coming back to, because it breaks the lazy way people talk about model launches.
+We are used to asking, “Which model is smartest?”
+I still want to know the answer. But if you are actually building, managing a team, buying enterprise licenses, or choosing your own daily tool, the question has more parts:
+
+What work are you doing?
+
+How long does the task run?
+
+What source material does it need?
+
+What tools can the model use?
+
+Can it inspect the artifact it just made?
+
+Does it preserve state when the work gets long?
+
+How much does the human have to babysit it?
+
+What happens when it is uncertain?
+
+What does a failed run cost you?
+Those questions decide whether the model saves you time or creates another review queue.
+So I am not treating Opus 4.8 as a “switch everything” release. It is one of the best models available right now. It is the best model in my current strict suite. I would use it aggressively for some work. I would not blindly make it my default for every long-running workflow.
+Here’s what I’m covering:
+
+Every test, scored and picked apart. Where Opus 4.8 won, where GPT-5.5 beat it, and where the score hides real caveats.
+
+The effort-level trap. The Vending-Bench data on why max can make long-running work worse, and how I configure each mode for real work.
+
+How I actually choose my daily tools. Why I still reach for Codex/5.5 despite the score, plus a routing guide for when to use Opus 4.8, Codex/5.5, and GPT-5.5.
+
+What builders, leaders, and executives should each do differently. Role-specific guidance and four prompts you can paste and use today.
+The reasoning is below, along with the tools to make the same decision for your own stack.
+Subscribers get the full deep-dive, plus membership to my Slack community!
+
+==========================================================================================
+DATE: 2026-06-05  | AUDIENCE: only_paid
+TITLE: You can't trust one token number across your tools. Here's the guide to a dashboard that keeps Codex, Claude, and ChatGPT honest.
+SUBTITLE: Token usage only becomes useful when it is tied to outcomes: what work you gave AI, how much delegated intelligence you deployed, whether the result improved, and what you should ask the computer to d
+URL: https://natesnewsletter.substack.com/p/token-burn-dashboard
+------------------------------------------------------------------------------------------
+As of this writing, the biggest single day I have ever run through Codex is north of 860 million tokens, counted exactly. By the time you read this the number will be higher, because I keep giving the computer more to do.
+You could read that as a brag. It is the least useful thing the number can tell you.
+A token count is not a scoreboard. It is a trace. It shows where you handed work to AI, how much delegated intelligence you spent doing it, and whether your behavior is actually changing. Tie that trace to outcomes and it stops being a cost chart or a status flex and turns into something better: a feedback loop for what your computer should do next. That is the whole reason to build one.
+That record day was not a day of asking for more paragraphs. It was a day when more of my work surface moved through agents: files, browser sessions, drafts, local tools, source notes, checks, revisions, automations, and several threads each carrying part of something real.
+The stake here is bigger than my token count. The models keep getting better and the tools keep getting broader, but a lot of capable people cannot feel it, because their own usage settled into a groove a year ago. If your picture of AI is still “ask a question, get an answer,” you will keep leaving the most valuable work on the table without noticing.
+They ask for a paragraph when they could ask for a full draft. They ask for a summary when they could ask for decisions, owners, and the follow-up note. Then they look at what comes back and call AI useful but not transformative. Of course it feels that way. They gave it assistant work. They never gave it computer work.
+A dashboard is how I catch that gap in myself. It does not make me better at using AI any more than a fitness tracker makes you healthy. What it gives me is the loop: a way to see whether AI is expanding what I can do or just making the same old work a little faster. That is why I built it.
+You can poke at the live version here: the beta dashboard. This is the one I originally built last week, running on my own usage. The version in the guide is an improved build of it, but I am leaving this one up for reference.
+Here is what is inside:
+
+Build your own token dashboard from scratch, with a step-by-step walkthrough, the prompt I used, and a full build video over in the guide.
+
+Start from a ready-made kit for your stack instead of a blank page, whether you live in Codex, Claude, ChatGPT, or all of them at once.
+
+The line between assistant work and computer work, and why being stuck on the wrong side has nothing to do with the model.
+
+Five rules for reading your chart, including why a quiet stretch can be a worse sign than your biggest spike.
+
+A fifteen-minute weekly review that turns your best one-off runs into workflows you stop rebuilding.
+
+Why ranking a team by token volume backfires, and the record that actually shows who can lead an AI rollout.
+Subscribers get the full build guide, plus membership to my Slack community!
+
+==========================================================================================
+DATE: 2026-06-07  | AUDIENCE: founding
+TITLE: Executive Briefing: Uber Burned Its Entire AI Budget Early. The Bill Was Trying to Tell Them Something.
+SUBTITLE: Token burn is more than a budget problem. It;s what happens when frontier intelligence gets useful, open models get good, and companies try to manage agentic work with 2025 controls.
+URL: https://natesnewsletter.substack.com/p/ai-token-cost-management
+------------------------------------------------------------------------------------------
+The next AI budget fight will not start because employees refuse to use AI.
+It will start because they finally do.
+This is why the date matters. This is a June 2026 problem, not a December 2025 problem.
+In May 2026, Uber became one of the first big companies to make the new problem concrete: 95% of its engineers now use AI tools every month, most of them in agent-style workflows, and an internal coding agent writes roughly 1,800 code changes a week. Uber was not playing with chatbots. It was doing exactly what every board has been demanding: get serious about AI, put the tools into real workflows, find the leverage.
+Then the cost story broke. Uber’s CTO, Praveen Neppalli Naga, reportedly told people the company had blown through its entire 2026 AI budget months early. The easy read was that the tools cost too much and employees need reining in.
+I think that read is incomplete. The sharper signal came from Uber’s president and COO, Andrew Macdonald, who said the company can see the usage, the commits, and the token spend, and still cannot cleanly connect any of it to better features for customers.
+That is the real story, and it is bigger than Uber. The bill is the first hard evidence that AI has crossed from a tool you buy into labor you have to manage, and almost no company has built a system to manage labor it cannot see. Read correctly, token burn is not waste but information about a kind of work the company has not learned to run yet.
+Where you sit decides what the bill threatens. If you own the budget, it becomes the line item that justifies a layoff you did not want to make. If you run engineering, it becomes the cap that kills the experiments that were working. If you do the work, it turns “used too much AI” into a performance problem instead of a signal that you found a job worth automating. Same invoice, three warnings, one missing system.
+The companies that win this will not be the ones that spent the least or the most. Spending freely and capping hard are both easy, and both are wrong. The harder answer is the one in between, and the rest of this briefing is how you get there.
+This briefing covers:
+
+The real shape of the AI cost curve. Why the work you actually want from frontier models keeps getting more expensive even as the price per call falls, and what that does to next year’s budget.
+
+A routing rule for every AI dollar. One principle, minimum effective intelligence, for deciding when a job needs a frontier model, an open model, or no model at all.
+
+Why your 2025 budget model is the thing breaking. Seats and licenses cannot price work that plans, retries, and runs for hours, and a better dashboard will not save it.
+
+The operating model that replaces the token cap. What an agent-first company actually changes: work objects, gates, permissions, and the training that turns usage into compounding advantage.
+
+How to read your own token bill. A way to tell production from tuition from waste from the signal that you just found a workflow worth turning into infrastructure.
+The argument runs in seven parts, and it ends somewhere you can use: an operating model and a routing rule you can take into your next budget conversation. The setup is free. The system is below.
+Executive Circle members enjoy all these Sunday briefings plus access to my MCP server! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-06-10  | AUDIENCE: only_paid
+TITLE: Claude vs. Codex isn't about code. It's about whether you steer or dispatch.
+SUBTITLE: Everyone treats Claude Code and Codex as rival coding tools. They are really teaching us two different ways to manage machine work: stay close and steer, or write the assignment and demand proof.
+URL: https://natesnewsletter.substack.com/p/claude-code-vs-codex-agents
+------------------------------------------------------------------------------------------
+The strange moment is not when an AI answers you.
+We have gotten used to that. You type something into a box. A model writes back. Sometimes it is useful. Sometimes it is nonsense. Either way, it still feels familiar. You asked. It answered. You are sitting there, judging the response in real time.
+The strange moment is when an AI comes back with work.
+It read the folder. It edited the file. It ran the command. It compared the sources. It says it is done.
+And now you have a new problem. You did not do the work. You may not have watched every step, or know which assumptions it made, which branch of the task it abandoned, or which shortcut it took because the shortcut made the answer look cleaner. But the work is sitting in front of you.
+Is it real?
+That question is the real Claude Code versus Codex story, and almost nobody frames it that way. Everyone wants to know which tool is better, which model is smarter, which writes cleaner code, which wins the benchmark. Fair questions. They are not the main event.
+These tools are training us to manage AI labor, and they train us to do it differently. Claude teaches you to steer agents. Codex teaches you to dispatch them. That sounds like a workflow note. It is deeper than that. Use one long enough and it changes what you reach for when a problem lands: another conversation, or a better assignment.
+I run into this every working day. Getting the machine to do work is the easy part. The hard part is deciding when the work is good enough to leave the machine. That decision is going to define a lot of white-collar jobs, and not because everyone will learn to code. More people are simply going to start receiving work from machines they did not supervise. The first time it happens, it feels like magic. The tenth time, it feels like management.
+That is why these tools matter even if you never write code. They showed up in software first because code has clean feedback loops, but the habit is already spreading into research, sales notes, spreadsheets, legal summaries, support triage, and every kind of knowledge work that lives in files and messages. Neither one is really just a coding tool anymore. The useful question is what kind of AI worker each tool is training you to become, and those habits will outlast this month’s leaderboard.
+Here’s what’s inside:
+
+The two ways agents fail you. Understanding theater, where a good conversation convinces you the work was understood, and completion theater, where a finished run feels far more done than it is.
+
+The jargon, decoded. Context, permissions, worktrees, hooks, and proof stop reading like programmer-speak and start reading like the moving parts of any assignment you hand a machine.
+
+Why the real test comes after the output. A head-to-head where both agents reached the same result in completely different ways, and what that says about trusting work you did not watch happen.
+
+The standard I would teach everyone. The five shapes every agent run takes, the six questions to answer before you launch one, and the cost almost nobody budgets for.
+
+Four prompts you can paste today. A Run Spec that turns a fuzzy task into a bounded assignment, a steer-or-dispatch diagnostic for when you cannot tell which the work wants, an “is it real?” audit for work an agent hands back, and a cross-check that makes one agent grade another.
+Let me show you how each tool trains you, where each one fails, and the standard I use to keep the work honest.
+Subscribers get the full deep-dive, plus membership to my Slack community!
+
+==========================================================================================
+DATE: 2026-06-14  | AUDIENCE: founding
+TITLE: Executive Briefing: Your company is about to get cheap intelligence. That is not the same as being able to use it.
+SUBTITLE: OpenAI, Anthropic, and xAI are heading to public markets with a story about scarce intelligence. But inside companies, the scarce thing may acbe the company structure around the model.
+URL: https://natesnewsletter.substack.com/p/openai-ipo-own-the-harness
+------------------------------------------------------------------------------------------
+Last week I got a call from a founder I’ve known for years. He runs an agentic startup, meaning his software does work for customers instead of waiting for customers to work inside the software. He had just moved his product off a frontier model and onto an open-weight model.
+His model bill dropped 97 percent in one month.
+He kept refreshing the billing dashboard because he did not believe the number.
+Two days later, OpenAI filed to go public.
+Those are not the same kind of fact. One is a private operating detail from a founder who sees model costs directly in his margins. The other is one of the biggest capital-markets events in technology. But putting them next to each other clarifies the problem leaders now have to think through.
+The market story is that intelligence is scarce. OpenAI, Anthropic, and xAI are preparing public investors to value them as if the companies that own the best intelligence will own a huge share of the next decade of enterprise value.
+The company story is different. For a growing amount of everyday work, intelligence is getting cheaper very quickly. The hard part is not always getting a smarter model. It is making the company ready to use the intelligence it can already buy.
+These IPOs are priced on intelligence. But the work that will matter inside most companies is not just choosing the smartest model. It is deciding how the company needs to change when intelligence becomes cheap enough to put everywhere.
+An AI pilot is too small for that question. So is one automated workflow. The harder questions are structural, and they sit in a layer most companies have never had to name.
+That layer around the model is the harness.
+The model supplies intelligence. The harness supplies the company: the context, documents, permissions, review standards, memory, budgets, decision rights, and accountability that make intelligence useful in a real organization.
+The labs can sell you models, tools, even engineers to install them. What they cannot sell you is your own operating context, or the judgment that decides when an output is good enough to ship. Those are the decisions leaders cannot outsource.
+A caveat: the S-1s are confidential. Nobody outside the companies, the SEC, and their advisers has read the full documents. The numbers circulating right now are reporting and estimates, and I will treat them that way. What we can read is the public behavior around the filings: the enterprise revenue story, the compute commitments, the pressure from cheaper models, the claims about self-improving AI, and the very human deployment businesses these companies are building around their models.
+The question is not whether your company will use these models. It will.
+The question is whether the structure around them becomes something you understand and own, or something that happens to you.
+This briefing covers:
+
+The two worlds you now have to operate in. Public markets are pricing intelligence as scarce, while inside most companies the cost of useful intelligence is collapsing. Both are true, and you have to plan for both.
+
+The harness, and why it may be the real scarce asset. The model supplies intelligence. The company layer around it, meaning context, permissions, review standards, memory, and decision rights, is what turns intelligence into trustworthy work, and it is the part the labs cannot fully sell you.
+
+Why the labs are hiring humans to install AI. The same companies telling investors that machines may soon improve machines are also staffing up to go workflow by workflow inside their customers, which tells you where the hard part actually lives.
+
+Five numbers to read when the S-1 opens. A short scorecard for telling, from the filing itself, whether intelligence stays the scarce asset or whether the value moves to whoever puts it to use.
+Wall Street is pricing the bet that intelligence stays scarce. What follows is the part about what your company has to become.
+Executive Circle members enjoy all these Sunday briefings plus access to my MCP server! Curious? You can easily change your plan here
+
+==========================================================================================
+DATE: 2026-06-17  | AUDIENCE: only_paid
+TITLE: Vercel deleted 80% of its agent's tools and the agent got better + what to delete from yours (guide inside!)
+SUBTITLE: Maintenance is not the boring thing that happens after the real work. It is what keeps useful systems alive. 
+URL: https://natesnewsletter.substack.com/p/ai-agent-maintenance
+------------------------------------------------------------------------------------------
+I learned maintenance first from boats.
+Not as a theory. As a job. I maintained boats in Indonesia, where saltwater finds every shortcut and the difference between “probably fine” and fine gets very real once you are away from shore. You look at lines, fittings, pumps, batteries, corrosion, and weather differently when the thing you are maintaining is also the thing that has to bring you back.
+I also watched planes get maintained there, then climbed into them hoping the work had been done well. Mostly it had. I mean that literally: one engine memorably failed over the jungle once, and it was, in the end, fine. Not because failure is harmless. Fine because the plane stayed a plane, the people knew what to do, and there was enough care and margin in the system that the failure stayed local.
+That is what “mostly” means in maintenance. Things still break. The point is that the thing has been cared for well enough that when something breaks, the failure stays small.
+The agents you have already built will keep producing work long after they stop being right. Keeping them honest is about to be one of the most valuable AI skills there is.
+Maintenance is one of those words that sounds dull until you depend on it. Then it becomes intimate. You notice the sound that was not there yesterday, the frayed edge, the mechanic’s face. You learn that care is not a feeling. It is inspection, memory, habit, replacement, skepticism, and respect for the ways things fail.
+There is a Barry Lopez line I have carried around for years, from the end of “The Orrery”:
+
+If one is patient, if you are careful, I think there is probably nothing that cannot be retrieved.
+The word I keep is retrieved — not fixed, not replaced — but stayed-with long enough to bring back.
+That is the spirit this AI conversation is missing.
+We talk about agents as if the hard part is getting them to exist. Build the agent. Launch the agent. Connect the tools. Give it memory. Let it work.
+But anything useful enough to depend on becomes something you have to maintain. That is true of boats. It is true of planes. It is true of buildings, institutions, data pipelines, customer-support systems, editorial standards, and software. It will be true of AI agents too.
+Vercel’s sales agent story is easy to read the wrong way.
+The obvious version is the labor story. Business Insider reported that Vercel trained an AI agent on one of its best sales development reps, used it to handle much of the inbound sales workflow, and moved from a ten-person inbound team to one person overseeing the agent while the rest shifted into more complex outbound work.
+But often the biggest story isn’t the most useful one.
+The more useful story is what had to be true around the agent for the work to become trustworthy. Vercel did not just tell a model to “do sales.” Engineers watched a strong rep. They documented the workflow. The agent filtered inbound messages, qualified leads, researched companies, drafted responses, routed support questions away from sales, and had a human reviewing its work in Slack.
+In other words, the agent had a workbench. It had sources. It had tools. It had a defined job. It had handoffs. It had a review path. It had feedback. It had a human who could see what was happening. The agent was not a free-floating brain. It was a system around delegated work.
+That is the part most people still miss.
+The obvious question is, “Can I build an agent?”
+The better question is, “What workbench does this agent need?”
+The mature question is, “How do I keep that workbench healthy after the agent starts working?”
+That third question is agent maintenance. And it is about to matter more than the building, because delegated intelligence creates a maintenance surface. Once a system reads context, calls tools, remembers preferences, drafts work, or touches a workflow other people depend on, someone has to keep the setup around it fit for the job.
+Here’s what’s inside:
+
+The two ways agents break. One when the world around them drifts, and one stranger failure: the model underneath them gets better, and the harness built for its old weaknesses turns into dead weight.
+
+Why “more” is the wrong instinct. More context, more tools, more memory feels like care. Usually it is the thing rotting your agent from the inside.
+
+The seven parts that go stale. Job, diet, memory, tools, reach, proof, and value — the harness around the model, and the specific way each one fails before you notice.
+
+Five agents, maintained in the open. A writing agent, a product-backlog agent, a Codex workflow, a support and revenue-risk agent, and a content pipeline, each shown drifting and each pulled back.
+
+The loop I run before I trust one again. The short, plain maintenance pass I walk before letting any agent stay close to real work.
+
+The audit, ready to run. The loop turned into a guide you can point at a live agent today: the last ten runs, the seven surfaces, and a keep, change, pause, or retire call before you trust it again.
+Below, the seven parts of the harness, what breaks where, and the loop I would run before trusting any agent that is part of the work.
+Subscribers get the full deep-dive and guide, plus membership to my Slack community!
