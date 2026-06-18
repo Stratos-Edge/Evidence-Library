@@ -1,0 +1,11 @@
+# Inbox: dropped source documents are a local audit archive, not committed.
+# Curated entries live in the library .md files; the originals stay local.
+inbox/**/*.docx
+inbox/**/*.doc
+inbox/**/*.pptx
+inbox/**/*.ppt
+inbox/**/*.xlsx
+inbox/**/*.pdf
+
+# OS cruft
+.DS_Store
