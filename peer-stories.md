@@ -1011,3 +1011,38 @@ _Added 2026-06-16 by `/ingest-evidence` — three named healthcare deployments o
 - **Verification:** primary accessed & confirmed 2026-06-17 (Calif blog; "five days," M5, first-public claim)
 - **Cross-link:** parallels [[ps-83]] (Mozilla/Firefox Mythos); both are Anthropic Mythos named customers and route to Radar as partner-customer attestations (case_study tier). Evidence for the "experts do bigger work" half of [[pg-101]].
 - **Added:** 2026-06-17
+
+### [PS-89] — Allianz (Project Nemo — agentic claims automation; #1 on the 2026 Evident AI Index for Insurance)
+- **Tags:** insurance (P&C / claims) · claims processing · enterprise · multi-agent / agentic automation · process win + operating-model shift
+- **What they did:** Allianz (Allianz Australia) launched Project Nemo, its first agentic AI — a multi-agent system that handles several steps of the claims process end-to-end (validating coverage, checking for fraud) rather than automating a single task. Allianz ranks #1 among 30 insurers on the 2026 Evident AI Index for Insurance (overtaking AXA), with a ~28% larger AI talent pool than the field.
+- **What changed:** For eligible food-spoilage claims (under ~US$327), processing time fell ~80% — from days to hours — enabling near-instant payouts, by tackling the process as a whole rather than bolting AI onto one step. Allianz frames AI as process-redesign first: productivity is the by-product of optimized processes, which then frees margin to reinvest in pricing and growth.
+- **Quote:** "Productivity becomes a sort of a by-product of the optimized processes that then we can reinject into making our product in terms of pricing points also more attractive to fuel the growth." — Claire-Marie Coste-Lepoutre, CFO, Allianz (earnings call)
+- **Primary source:** Allianz — "When the storm clears, so should the claim queue" (Project Nemo) · https://www.allianz.com/en/mediacenter/news/articles/251103-when-the-storm-clears-so-should-the-claim-queue.html · 2025-11-03; ranking: Evident AI Index for Insurance 2026 · https://evidentinsights.com/insurance-ai-index/
+- **Found via:** Evident Insights — "The Brief" (2026 Evident AI Index for Insurance) · 2026-06-18
+- **Credibility:** Tier 1 — Allianz primary press + independent coverage (Emerj, Coverager) for the Nemo outcome; the Index ranking is an independent AI-maturity benchmark. The CFO quote is company-stated (Tier 3).
+- **Verification:** Project Nemo (80% reduction, food-spoilage <$327, days→hours) and the #1 ranking confirmed 2026-06-18 (Allianz media center + Allianz's "ranked #1" release + Evident Index page)
+- **Cross-link:** the Insurance Index benchmark is [[ab-143]]; the agentic-shift benchmark is [[ab-144]]; the redesign-end-to-end principle is [[pg-120]].
+- **Added:** 2026-06-18
+
+### [PS-90] — Manulife (agentic sales-support agent; top life insurer on the 2026 Evident AI Index for Insurance)
+- **Tags:** insurance (life) · sales / distribution · enterprise · agentic sales support · process win / new-revenue
+- **What they did:** Manulife deployed a sales-support agent (piloted in Singapore) that recommends next actions and drafts personalized notes to customers. Manulife ranks #3 overall on the 2026 Evident AI Index for Insurance and is again the Index's top life insurer.
+- **What changed:** In pilot, the agent produced a 5% higher repurchase rate — an example of AI pushing past productivity into outcomes that move the bottom line (distribution/retention), not just speeding an existing task.
+- **Primary source:** Manulife (Singapore sales-support pilot), as reported in the Evident AI Index for Insurance 2026 · https://evidentinsights.com/insurance-ai-index/
+- **Found via:** Evident Insights — "The Brief" · 2026-06-18
+- **Credibility:** Tier 3 — company/pilot-reported outcome relayed by Evident (independent index); the ranking itself is independent
+- **Verification:** relayed by Evident's The Brief and the Evident Insurance Index; the underlying Manulife pilot figure not independently accessed (2026-06-18)
+- **Cross-link:** the move-beyond-productivity principle is [[pg-120]]; the Index is [[ab-143]].
+- **Added:** 2026-06-18
+
+### [PS-91] — AXA (extreme-weather risk platform; #2 on the 2026 Evident AI Index for Insurance)
+- **Tags:** insurance · underwriting / risk + catastrophe prevention · enterprise · predictive analytics · operating-model shift
+- **What they did:** AXA built an extreme-weather risk platform that turns real-time data into predictive insights, used to help avoid losses through proactive disaster prevention rather than only paying claims after the fact. AXA ranks #2 on the 2026 Evident AI Index for Insurance (last year's #1).
+- **What changed:** Shifts part of the insurer's model from reactive claims toward proactive risk mitigation — AXA frames AI as more than efficiency: changing how customers access insurance, how products are personalized, and the customer experience.
+- **Quote:** "For us, AI is an efficiency play, but not only… AI will change how customers access insurance, it will change the personalizations in products, and it will also change the customer experience." — Thomas Buberl, CEO, AXA (earnings call, Feb 2026)
+- **Primary source:** AXA (extreme-weather risk platform), as reported in the Evident AI Index for Insurance 2026 · https://evidentinsights.com/insurance-ai-index/
+- **Found via:** Evident Insights — "The Brief" · 2026-06-18
+- **Credibility:** Tier 3 — company-reported, relayed by Evident (independent index); ranking is independent
+- **Verification:** relayed by Evident's The Brief / Evident Insurance Index; underlying AXA earnings statement not independently accessed (2026-06-18)
+- **Cross-link:** the redesign-vs-bolt-on principle is [[pg-120]]; the Index is [[ab-143]].
+- **Added:** 2026-06-18

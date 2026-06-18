@@ -1708,3 +1708,55 @@ _Added 2026-06-08 by `/start` (choc-rady) — benchmarks for the `pediatric-acut
 - **Caveat:** Vendor-commissioned and self-reported; the framing serves TELUS's product. Use the named **57%** (TELUS) or **46% with-reason** (Laserfiche) — never the unsourced "~75%." The 22%-still-use-personal figure is the sharp one: providing an approved tool does not, by itself, close the gap.
 - **Cross-link:** extends the shadow-AI cluster [[ab-55]], [[ab-63]], [[ab-82]], [[ab-112]] (IBM's +$670K breach-cost is the dollar exposure); the action principle is [[pg-117]].
 - **Added:** 2026-06-17
+
+### [AB-143] — The 2026 Evident AI Index for Insurance: Allianz leads 30 major insurers on AI maturity (overtaking AXA)
+- **Metric:** AI-maturity ranking of large insurers (composite of AI talent, innovation impact, C-suite tech leadership, governance & scaling)
+- **Value:** 30 of the largest North American & European insurers ranked. Top: #1 Allianz (overtook AXA; ~28% larger AI talent pool than the field), #2 AXA, #3 Manulife (top life insurer), #4 Zurich (rose 8 places — the biggest mover); Liberty Mutual is the top P&C insurer. Only three of last year's top-five held their top-five spot.
+- **Normalization:** A maturity index/ranking — use as the sector benchmark for "where does an insurer stand vs peers on AI" and what the frontrunners do differently; the per-dimension structure (talent / innovation / leadership / governance) maps onto a readiness conversation
+- **Scope:** 30 largest insurers, North America & Europe; companion to the Evident AI Index for Banks (already represented in the library)
+- **Primary source:** Evident Insights — "2026 Evident AI Index for Insurance" (Key Findings Report) · https://evidentinsights.com/insurance-ai-index/ · 2026-06
+- **Found via:** Evident Insights — "The Brief" · 2026-06-18
+- **Credibility:** Tier 1/2 — independent AI-benchmarking firm's structured index (corroborated by Allianz's own "#1" release)
+- **Verification:** ranking confirmed 2026-06-18 (Evident Index page + Allianz press + Mousavizadeh top-10 post)
+- **Caveat:** Methodology is Evident's; "maturity" is a composite, not a financial-return measure. Pairs with the Banks index entries already in the library.
+- **Cross-link:** named insurer cases [[ps-89]] (Allianz), [[ps-90]] (Manulife), [[ps-91]] (AXA); the agentic-shift figure is [[ab-144]].
+- **Added:** 2026-06-18
+
+### [AB-144] — Over 40% of insurers' 2026 AI tools now automate multiple workflow steps, not just a single task
+- **Metric:** Share of newly released insurer AI tools that automate several steps of a workflow (vs. single-task point solutions)
+- **Value:** >40% of the AI tools released in 2026 by the 30 insurers Evident tracks now automate several steps of a workflow rather than one task. The leaders chain tools together to tackle whole processes (e.g., Allianz's Project Nemo across the claims chain).
+- **Normalization:** % of new AI tools/use cases — a sector indicator of the shift from point-solution productivity to multi-step / agentic process automation; useful to argue where insurance AI value is heading and to set a target for "whole-process" vs "single-task" deployments
+- **Scope:** 30 largest NA/Europe insurers; AI tools released in 2026
+- **Primary source:** Evident Insights — "2026 Evident AI Index for Insurance" · https://evidentinsights.com/insurance-ai-index/ · 2026-06
+- **Found via:** Evident Insights — "The Brief" · 2026-06-18
+- **Credibility:** Tier 1/2 — independent AI-benchmarking firm
+- **Verification:** figure stated in Evident's The Brief / Index 2026-06-18; Index methodology is Evident's
+- **Caveat:** "Automates several steps" is Evident's classification; most insurance AI is still narrow point solutions — this measures the leading edge, not the median.
+- **Cross-link:** the flagship case is [[ps-89]] (Allianz Project Nemo); the deployment-layer / agentic-feasibility themes are [[pg-72]], [[pg-103]]; the "you're not behind" framing is [[pg-119]].
+- **Added:** 2026-06-18
+
+### [AB-145] — At a major payments firm, 40% of engineers use AI daily and 25% of code is AI-written (targeting ~100% by year-end)
+- **Metric:** AI adoption depth in engineering at a financial-infrastructure firm
+- **Value:** Fiserv reports 40% of its engineers use AI every day and 25% of its code is AI-written, with leadership targeting "close to 100% by year-end." Framed as already delivering outsized results "even at this modest level of adoption."
+- **Normalization:** % of engineers / % of code — scales to an engineering org's headcount and commit base; a financial-services data point alongside the cross-industry figure
+- **Scope:** Financial infrastructure / payments (Fiserv); software engineering
+- **Primary source:** Fiserv — investor-day remarks by Takis Georgakopoulos (incoming CEO), as reported by Evident Insights · https://evidentinsights.com
+- **Found via:** Evident Insights — "The Brief" (Talent Matters) · 2026-06-18
+- **Credibility:** Tier 3 — company-reported (investor day) relayed by Evident
+- **Verification:** relayed by Evident's The Brief; underlying Fiserv investor-day transcript not independently accessed (2026-06-18)
+- **Caveat:** Company-reported and forward-looking ("close to 100% by year-end" is a target). "% of code AI-written" measures authorship touch, not value delivered. Corroborates the cross-industry pattern.
+- **Cross-link:** the cross-industry version is [[ab-130]] (Uber 95%/70%); the token-cost discipline is [[pg-79]]. Fiserv's **AgentOS** (a platform banks build agentic tools on) is partner capability → routes to Radar, not here.
+- **Added:** 2026-06-18
+
+### [AB-146] — AI consumer sentiment is cooling, and trust is use-case-specific: ~1/3 of Americans are excited about AI (down 5 pts), and only ~1 in 3 would trust AI financial advice
+- **Metric:** Consumer attitudes toward AI — general excitement and use-case-specific trust (financial services)
+- **Value:** Only ~one-third of Americans are excited about AI in products and services, down 5 points year-on-year (Ipsos). In banking specifically (TD Bank AI Insights Report): more than half of Canadians are comfortable with AI in back-end processes like fraud protection and credit scoring, but only about one in three would trust AI financial advice over advice from their parents.
+- **Normalization:** % of consumers, split by use case — scales to a customer base; the load-bearing pattern is that trust is high for back-office/risk uses and low for advice/decisions, which should shape how AI features are introduced and marketed
+- **Scope:** US consumers (Ipsos) and Canadian banking customers (TD); generalizes directionally to FS consumer-facing AI
+- **Primary source:** Ipsos (consumer AI sentiment polling) and TD Bank — "AI Insights Report" (2026), as reported by Evident Insights
+- **Found via:** Evident Insights — "The Brief" (In the News) · 2026-06-18
+- **Credibility:** Tier 1 (Ipsos polling) and Tier 2/3 (bank-published survey, TD), relayed by Evident
+- **Verification:** relayed by Evident's The Brief; the Ipsos "−5 pts" and TD figures not independently re-derived (2026-06-18)
+- **Caveat:** Self-reported attitudes; the "trust parents over AI advice" framing is a specific TD survey question. Pairs with the safety/trust concern data in [[ab-138]] (Teneo) — relevant to how AI products are marketed, not whether to build them.
+- **Cross-link:** the persuasion/trust principles are [[pg-108]], [[pg-110]]; the safety-over-jobs concern benchmark is [[ab-138]].
+- **Added:** 2026-06-18
