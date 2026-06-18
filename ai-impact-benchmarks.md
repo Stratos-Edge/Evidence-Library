@@ -1760,3 +1760,44 @@ _Added 2026-06-08 by `/start` (choc-rady) — benchmarks for the `pediatric-acut
 - **Caveat:** Self-reported attitudes; the "trust parents over AI advice" framing is a specific TD survey question. Pairs with the safety/trust concern data in [[ab-138]] (Teneo) — relevant to how AI products are marketed, not whether to build them.
 - **Cross-link:** the persuasion/trust principles are [[pg-108]], [[pg-110]]; the safety-over-jobs concern benchmark is [[ab-138]].
 - **Added:** 2026-06-18
+
+### [AB-147] — The innovation say-do gap: 58% of CEOs get under 10% of revenue from offerings less than five years old — yet 77% call new-category expansion critical or important
+- **Metric:** Share of company revenue from recently introduced offerings vs. stated importance of expansion (the gap between innovation ambition and realized revenue)
+- **Value:** 58% of CEOs say <10% of current revenue comes from products/services they didn't offer five years ago; only **22%** say new sectors/categories/markets are now a significant source of revenue or growth; **43%** entered new areas but report "limited impact on revenue." Meanwhile **77%** say expanding into new categories, markets, or offerings will be critical or important to compete over the next 3–5 years (**~30% "critical"**).
+- **Normalization:** % of revenue from new offerings / % of CEOs — scales as a base rate for "how much of a company's revenue is genuinely new" and the size of the ambition-vs-execution gap; the gap itself is the engagement opportunity (the plan that closes it)
+- **Scope:** 315 U.S. CEOs across sectors; mid-to-large companies; June 2026
+- **Quote:** "AI will have a very large impact much sooner than most expect… all need a plan to address their business model." — Mark Grosskopf, CEO, New Resources Consulting (in the survey)
+- **Primary source:** Chief Executive — Melanie C. Nolen, "Poll Finds CEOs Hungry For Innovation But Struggle To Find ROI" · https://chiefexecutive.net/poll-finds-ceos-hungry-for-innovation-but-struggle-to-find-roi/ · 2026-06-15 (survey of 315 U.S. CEOs)
+- **Found via:** Anthony Onesto (LinkedIn article) · June 2026
+- **Credibility:** Tier 2 — executive survey by a business publication's research arm (Chief Executive Group)
+- **Verification:** primary accessed & line-checked 2026-06-18 (all figures confirmed against the article)
+- **Caveat:** Self-reported; "new offerings" is CEO-defined. The gap is cross-industry; sector and ownership splits are in [[ab-148]].
+- **Cross-link:** the people-side cause is [[pg-122]] and [[pg-123]]; the ROI-lag context is [[ab-139]] (Oliver Wyman) and the J-curve [[pg-113]].
+- **Added:** 2026-06-18
+
+### [AB-148] — Innovation revenue varies sharply by sector and ownership: healthcare 0%, manufacturing 31%, PE-backed far ahead of family-owned
+- **Metric:** Share of CEOs reporting new sectors/categories are already a significant revenue source — split by industry and ownership
+- **Value:** **Healthcare: 0%** of CEOs say expansion into new areas has become a significant source of revenue or growth — yet **86%** say it will be critical/important in 3–5 years (the widest say-do gap of any segment). **Industrial manufacturing: 31%** report new areas already significant (vs. 22% overall), with 80%+ calling future expansion critical/important. **Ownership:** PE-backed firms — ~one-third already significant and **88%** call expansion critical/important; **family-owned** firms are markedly lower on both.
+- **Normalization:** % of CEOs by sector/ownership — directly usable to frame a healthcare or manufacturing client against its peers, and to frame the PE-portfolio growth thesis; the healthcare 0%/86% delta is a stark "recognized-but-stuck" signal
+- **Scope:** 315 U.S. CEOs; healthcare, industrial manufacturing, PE-backed and family-owned cohorts; June 2026
+- **Quote:** "The biggest challenge I see in the future is big Corps taking over market share and leaving little to no opportunity for growth recovery and expansion for smaller family-owned companies." — Taymi Marrero, CEO, Ground Power Parts (manufacturer, in the survey)
+- **Primary source:** Chief Executive — Melanie C. Nolen, "Poll Finds CEOs Hungry For Innovation But Struggle To Find ROI" · https://chiefexecutive.net/poll-finds-ceos-hungry-for-innovation-but-struggle-to-find-roi/ · 2026-06-15
+- **Found via:** Anthony Onesto (LinkedIn article) · June 2026
+- **Credibility:** Tier 2 — executive survey (Chief Executive Group)
+- **Verification:** primary accessed & line-checked 2026-06-18
+- **Caveat:** Sector/ownership cell sizes within a 315-CEO sample are smaller — treat the splits as directional. The healthcare "0%" is "none of the surveyed healthcare CEOs," not a census.
+- **Cross-link:** the overall gap is [[ab-147]]; the people-infrastructure cause is [[pg-123]]; healthcare and manufacturing are Stratos's named verticals.
+- **Added:** 2026-06-18
+
+### [AB-149] — Corporate R&D spend is rising but modest: average 8.8% of net revenue (2025), 9.4% forecast (2026); median just 5%
+- **Metric:** R&D spend as a share of net revenue (U.S. companies)
+- **Value:** Average R&D spend was **8.8% of net revenue in 2025**, forecast **9.4% for 2026** — up from 7% (2023) and 6% (2024). But the **median is 5%** for both 2025 and 2026; the averages are skewed upward by early-stage/tech companies with low revenue and high development cost.
+- **Normalization:** % of net revenue — scales to a company's revenue base; the mean-vs-median split is the load-bearing nuance (for most companies formal R&D is a small slice). Useful to argue that spend alone doesn't reinvent a business model — the constraint is capability, not budget
+- **Scope:** U.S. companies, 315-CEO survey + Chief Executive Financial Performance Benchmarks; 2023–2026; cross-industry
+- **Primary source:** Chief Executive — Melanie C. Nolen, "Poll Finds CEOs Hungry For Innovation But Struggle To Find ROI" (and the Financial Performance Benchmarks Report) · https://chiefexecutive.net/poll-finds-ceos-hungry-for-innovation-but-struggle-to-find-roi/ · 2026-06-15
+- **Found via:** Anthony Onesto (LinkedIn article) · June 2026
+- **Credibility:** Tier 2 — executive survey / benchmarks (Chief Executive Group)
+- **Verification:** primary accessed & line-checked 2026-06-18
+- **Caveat:** Averages are skewed by tech/early-stage firms (use the 5% median for a typical operator). R&D ≠ AI spend; the point for the FlightPlan is that money flows to tools, not to the human capability to use them — see [[pg-122]].
+- **Cross-link:** the capability-not-budget argument is [[pg-122]]; the ROI-lag is [[ab-139]].
+- **Added:** 2026-06-18
