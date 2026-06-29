@@ -16,7 +16,18 @@ The curated list of **serial publishers** the evidence library re-examines for n
 
 ## Field key
 
-`Name` · `Type` (substack / newsletter / research-hub / periodic-index / analyst-deck / discovery-index) · `Archive URL` (where new items are listed) · `Cadence` · `Feeds` (A peer-stories / B benchmarks / C principles) · `de-vendor?` · `Priority` · `Last seen` · `Notes`
+`Name` · `Type` (substack / newsletter / research-hub / periodic-index / analyst-deck / discovery-index) · `Archive URL` (where new items are listed) · `Cadence` · `Feeds` (A peer-stories / B benchmarks / C principles) · `de-vendor?` · `Priority` · `Sweep group` · `Last seen` · `Notes`
+
+## Sweep groups (split cadence)
+
+`/refresh-evidence-sources` takes a group argument so high-volume sources are swept more often than slow ones:
+
+- **`weekly`** — high-volume publishers that would pile up a big backlog under a monthly-only sweep: **Nate's Newsletter, Every, Evident Insights (The Brief), Eric Porres / Beyond Reason, Exponential View, Daniel Williams / Weekend Dispatch, Benedict Evans** (weekly newsletter; his seasonal decks also surface here).
+- **`monthly`** — periodic / annual / slow-cadence publishers: **McKinsey (State of AI), Menlo Ventures, Chief Executive, Microsoft New Future of Work Reader, Dataiku, vaibhavsharma.ai (discovery index)**, plus the **Watchlist**.
+- **`all`** (or no argument) — sweep every active source regardless of group.
+- **`<source name>`** — sweep just that one.
+
+The **lists above are authoritative** for which group a source is in (a source may also be annotated `Sweep: weekly|monthly` on its line). New sources added by `/ingest-evidence` (Step 7c) get a sweep group based on cadence: weekly/near-daily → add to the `weekly` list; everything slower → `monthly`.
 
 ---
 
