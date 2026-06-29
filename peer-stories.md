@@ -1046,3 +1046,15 @@ _Added 2026-06-16 by `/ingest-evidence` — three named healthcare deployments o
 - **Verification:** relayed by Evident's The Brief / Evident Insurance Index; underlying AXA earnings statement not independently accessed (2026-06-18)
 - **Cross-link:** the redesign-vs-bolt-on principle is [[pg-120]]; the Index is [[ab-143]].
 - **Added:** 2026-06-18
+
+### [PS-92] — Logitech (CAIO-led, champion-driven enterprise AI enablement across 7,000 employees)
+- **Tags:** cross-vertical (consumer-electronics / hardware manufacturer) · enterprise-wide workforce enablement · enterprise · operating-model redesign / AI-forward culture · operating-model shift / scaling
+- **What they did:** Over ~15 months, Logitech (7,000 employees, 46 countries) ran a Chief-AI-Officer-led program taking the company "from AI-curious to AI-competent." Instead of doubling down on top-down training, Eric Porres surveyed the whole workforce, found **112 "hidden champions"** already using AI exceptionally, reverse-engineered *how they think* (a six-element prompt structure — Role, Context, Task, Output, Boundaries, Reasoning — plus meta-prompting), and spread those patterns through accessibility ("zero clicks away"), persistent context, rituals, and visible leadership modeling.
+- **What changed:** Self-reported adoption at scale — **85% of employees AI-certified, 95%+ active on the enterprise assistant, 85% building on the internal platform, ~2,000 custom AI assistants and counting.** Adoption reframed from a training problem to a discover-and-amplify movement: "Stop teaching. Start listening." Every leadership meeting now opens with "How has AI affected you this week?"
+- **Quote:** "Stop teaching. Start listening. The champions are already in your organization. Your job is to find them, learn from them, and help their patterns spread." — Eric Porres, Chief AI Officer, Logitech (via WRITER's *Humans of AI*)
+- **Primary source:** Eric Porres (Chief AI Officer, Logitech) — "The Blank Page Is Not Deep Work," *Beyond Reason* (Substack) · https://promptedbyeric.substack.com/p/the-blank-page-is-not-deep-work · 2026-03-31 (first-hand metrics); corroborated by Alaura Weaver — "From vending machines to champions: Eric Porres, Logitech's Head of AI," WRITER *Humans of AI* · https://writer.com/blog/humans-of-ai-eric-porres/ · 2026-01-28 (method + quotes)
+- **Found via:** porres.com → *Beyond Reason* / WRITER profile · 2026-06-29
+- **Credibility:** Tier 3 — first-hand practitioner account by the executive who led it (self-reported metrics), corroborated by a third-party profile. **De-vendor before client use:** the WRITER profile is an AI-platform vendor's blog (WRITER markets itself in it), and Logitech's stack names Gemini and an internal platform — cite the *approach and outcomes*, never as a Stratos endorsement of any tool.
+- **Verification:** both sources read in full 2026-06-29; metrics are Porres's own (self-reported, not independently audited).
+- **Cross-link:** the champion-led adoption principle is [[pg-129]]; the leadership-modeling principle is [[pg-130]]; mindset-over-access is [[pg-128]]; people-set-the-pace [[pg-21]].
+- **Added:** 2026-06-29
