@@ -98,8 +98,9 @@ _Seeded 2026-05-18 by the initial research pass — 30 benchmarks (25 Tier 1, 2 
 - **Scope:** 6,000+ knowledge workers across 56 firms; integrated gen AI assistant (M365 Copilot)
 - **Source:** Microsoft Research — "Early Impacts of M365 Copilot" (Dillon et al.) · https://arxiv.org/pdf/2504.11443 · 2025-04-16
 - **Credibility:** Tier 3 — randomized experiment, but run and authored by the tool vendor
-- **Caveat:** Vendor-conducted; early-rollout period may understate steady-state; only ~40% of those given access used it regularly.
-- **Added:** 2026-05-18 · **Last verified:** 2026-05-18
+- **Caveat:** Vendor-conducted; early-rollout period may understate steady-state; only ~40% of those given access used it regularly. **VENDOR-TOOL-SPECIFIC (Microsoft 365 Copilot) — de-vendor before client use.**
+- **Cross-link:** the expanded, longer RCT by the same author team is [[ab-151]] (Dillon, Jaffe, Immorlica, Stanton — NBER w33795, 66 firms/7,137 workers); note AB-07 here reports docs ~12% faster while the expanded RCT reports a *null* on document output — cite the tension, don't average. The Word-pace telemetry study is [[ab-150]].
+- **Added:** 2026-05-18 · **Last verified:** 2026-06-29 (added NBER w33795 cross-link)
 
 ### [AB-08] — College-educated professionals completed writing tasks 40% faster with ChatGPT, output quality up 18%
 - **Metric:** Time-per-task reduction and quality change on mid-level professional writing
@@ -1801,3 +1802,42 @@ _Added 2026-06-08 by `/start` (choc-rady) — benchmarks for the `pediatric-acut
 - **Caveat:** Averages are skewed by tech/early-stage firms (use the 5% median for a typical operator). R&D ≠ AI spend; the point for the FlightPlan is that money flows to tools, not to the human capability to use them — see [[pg-122]].
 - **Cross-link:** the capability-not-budget argument is [[pg-122]]; the ROI-lag is [[ab-139]].
 - **Added:** 2026-06-18
+
+### [AB-150] — Sustained Copilot adopters completed the same Word activities ~40–45% faster (≈6 min vs ≈11 min), with the gain spilling into work where the AI wasn't used
+- **Metric:** Telemetry-measured time per document-work activity instance (pace of work), adopters vs matched non-adopters
+- **Value:** 12 weeks after adoption, sustained adopters completed comparable Word activities in **~6 minutes vs ~11 minutes** for matched future-adopters — a **~40–45% reduction**. Activities where the AI was actually used averaged **~4.6 minutes** by the end of the window. **Spillover:** adopters were faster even on activities where the AI was *not* used. **Time-to-value compressed over 2025:** Feb-2025 adopters reached half their eventual savings in ~2.4 weeks; Nov-2025 adopters in ~1.4 weeks (~40% faster ramp).
+- **Normalization:** Per knowledge worker, per document-work activity instance — scales to document-heavy knowledge-worker headcount. NOT a headcount-reduction figure (see caveat).
+- **Scope:** 72,186 workers across 1,021 US organizations; document work in Microsoft Word; an integrated gen-AI assistant. Cross-industry.
+- **Primary source:** Gaurav Verma, Siddharth Suri, Scott Counts — "How Copilot Changed the Pace of Work in Word — And How We Measured It," The New Future of Work Reader (Microsoft) · https://microsoft.github.io/nfw-reader/posts/causal-impact-copilot · 2026-06-18
+- **Found via:** Microsoft New Future of Work Reader (https://microsoft.github.io/nfw-reader/) · 2026-06-29
+- **Credibility:** Tier 3 — vendor-conducted research (Microsoft measuring its own product), but research-grade method: coarsened exact matching + staggered difference-in-differences against matched future-adopters at the same org. Not an RCT (observational; role not controlled).
+- **Verification:** Reader article read in full 2026-06-29 (this data story is the primary; no separate paper). Figures transcribed verbatim.
+- **Caveat:** **VENDOR-TOOL-SPECIFIC (Microsoft 365 Copilot) — de-vendor before any client use:** cite as "an integrated gen-AI document assistant," never as a Stratos endorsement of Microsoft, per Stratos's vendor-neutral stance. **"Measured time is not productivity"** (the authors' own caveat): the outcome is telemetry duration per activity, not document quality, total output, off-app thinking, review time, or business value; it excludes the prompt-to-accept interval (so not explained by model speed). A faster *pace* is not a headcount saving — use for the recovered-capacity narrative, not a cut-jobs claim.
+- **Cross-link:** the RCT companion (rhythm-not-volume) is [[ab-151]]; the earlier M365 Copilot RCT is [[ab-07]]; the recovered-capacity magnitude anchors are [[ab-07]] and [[ab-93]]; "texture not structure" principle [[pg-125]].
+- **Added:** 2026-06-29
+
+### [AB-151] — A 7,137-worker RCT found gen-AI changed the *rhythm* of knowledge work — ~2 fewer hours/week in email, more focus time — but did NOT change meeting load or document output
+- **Metric:** Behaviorally-measured (telemetry) work-pattern changes from random assignment of an AI assistant; effect on adopters (LATE), mature use (months 4–6)
+- **Value:** Adopters spent **~2 fewer hours/week in email (Outlook)** and opened email **~5 fewer sessions/week** (≈32→≈26) without sending fewer or slower replies; **email-free focus time rose ~1.5–2.2 hrs/week** (the source states both figures); **after-hours email fell ~30 min/week** (total after-hours digital activity −22 min). **Null results:** no measurable change in Teams meetings attended or time in meetings, number of Word documents drafted, or task mix. **Spillovers ≈ zero** — untreated teammates of adopters showed no meaningful change. **20% of those given the tool never used it.**
+- **Normalization:** Hours/week per knowledge worker — scales to knowledge-worker headcount. Reads as recovered attention/focus, not output volume or headcount.
+- **Scope:** 66 large firms, 7,137 knowledge workers (3,684 randomly assigned the tool), 6-month RCT, Sept 2023–Oct 2024; telecom, financial services, manufacturing, healthcare, professional services, public sector. Integrated gen-AI assistant (email/meetings/documents).
+- **Primary source:** Eleanor W. Dillon, Sonia Jaffe, Nicole Immorlica, Christopher T. Stanton — "Shifting Work Patterns with Generative AI," NBER Working Paper 33795 · https://www.nber.org/papers/w33795 · 2025 (DOI 10.3386/w33795)
+- **Found via:** Microsoft New Future of Work Reader — "What a randomized trial of 7,000 workers tells us about AI at work" · https://microsoft.github.io/nfw-reader/posts/shifting-work-patterns · 2026
+- **Credibility:** Tier 2 — multi-firm field RCT at an independent academic venue (NBER, 3 anonymous referees). Disclosed: some authors employed by Microsoft (maker of the tool); "Microsoft reviewed this paper for privacy concerns, but authors had full discretion over the results." Stronger than the Microsoft-only Reader data stories.
+- **Verification:** Reader relay read in full; NBER primary page verified 2026-06-29 (title, authors, disclosure, DOI confirmed); full PDF not opened this pass.
+- **Caveat:** **VENDOR-TOOL-SPECIFIC (Microsoft 365 Copilot) — de-vendor before client use.** Firms volunteered (early-adopter skew). The "+focus time" figure appears as both ~1.5 and ~2.2 hrs/week in the source — record both. The headline lesson is directional, not just numeric: at the *individual* license level AI changed how work feels, not how much got produced — see [[pg-125]].
+- **Cross-link:** the earlier/companion M365 Copilot RCT is [[ab-07]] (note: AB-07 reported docs ~12% faster; this expanded RCT reports a *null* on document output — flag the tension when citing); the Word-pace telemetry study is [[ab-150]]; "texture not structure / licenses ≠ reorganization" is [[pg-125]].
+- **Added:** 2026-06-29
+
+### [AB-152] — Across ~5.5M enterprise AI-assistant sessions, usage is overwhelmingly *assistive* (augmentation, not automation); the AI performs ~3.26 work activities per conversation vs the 1.68 users explicitly ask for
+- **Metric:** Usage-pattern distribution and goal-vs-action gap across enterprise AI-assistant conversations (intent classification + O*NET work-activity mapping)
+- **Value:** **Information Inquiry + Content Refinement = ~60% of all prompts**; plain text editing alone is ~25% of prompts; only ~1 prompt in 50 is informal chat. **Goal-vs-action gap:** the AI performs an average of **3.26 O*NET work activities per conversation vs the 1.68 users explicitly request** (≈2×). **Trend over a 113-day window (summer 2025):** "chat as search" declining (Information Inquiry 38%→33%, −12% relative) while drafting rises (Content Refinement 20.5%→28.6%, +40% relative). **AI applicability by occupation:** Computer & Mathematical ~64% vs physical-world roles <25% (Building & Grounds ~14%). **Reach gap:** in industries like Banking, Consulting, Manufacturing, 36–57% of intermediate work activities have no presence in the data at all.
+- **Normalization:** Distributional (shares of prompts/activities) + per-conversation activity counts; occupational applicability bands scale by workforce composition (knowledge vs physical roles). Use to estimate *which functions* an assistant reaches, not a per-worker dollar figure.
+- **Scope:** ~5.5M M365 Copilot Chat sessions, >1M companies, summer 2025; enterprise/work context only ("do not generalize to consumer Copilot"). Cross-industry, cross-occupation.
+- **Primary source:** Scott Counts, Yan Chen, Jing Dong, Himanshu Sharma, Andrey Zaikin, Rui Hu, Alperen Kok, Gorkem Ozer Yilmaz, Siddharth Suri, Kiran Tomlinson, Sonia Jaffe, Will Wang — "AI in the Enterprise: How People Use M365 Copilot Chat," arXiv:2605.23958 · https://arxiv.org/abs/2605.23958 · submitted 2026-05-11
+- **Found via:** Microsoft New Future of Work Reader — "Five Million Conversations" and "Beyond the Prompt" · https://microsoft.github.io/nfw-reader/posts/five-million-conversations · 2026
+- **Credibility:** Tier 3 — vendor-conducted (Microsoft telemetry of its own product), large-scale; authors' own framing: "the most frequent usage of M365 Copilot is assistive — pointing to a stronger role for augmentation than automation."
+- **Verification:** Reader relays read in full; arXiv:2605.23958 abstract & 12-author roster verified 2026-06-29; full PDF not opened this pass.
+- **Caveat:** **VENDOR-TOOL-SPECIFIC (Microsoft 365 Copilot Chat) — de-vendor before client use.** M365 Copilot Chat only; not generalizable to other surfaces. The 3.26-vs-1.68 gap is the load-bearing governance datum (more work happens than the user sees) — pairs with the "conversation is the unit of accountability" principle [[pg-127]] and the augmentation-not-automation narrative.
+- **Cross-link:** the unit-of-accountability / legibility principle is [[pg-127]]; the "AI isn't human → scale insight not tasks" principle is [[pg-126]]; pace-of-work [[ab-150]].
+- **Added:** 2026-06-29
